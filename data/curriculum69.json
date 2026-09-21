@@ -1,0 +1,3083 @@
+{
+  "curriculum": {
+    "title_TH": "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์ (หลักสูตรปรับปรุง พ.ศ. 2569)",
+    "title_EN": "Bachelor of Science Program in Computer Science (Revised Curriculum 2026)",
+    "degree_TH": "วิทยาศาสตรบัณฑิต (วิทยาการคอมพิวเตอร์) / วท.บ. (วิทยาการคอมพิวเตอร์)",
+    "degree_EN": "Bachelor of Science (Computer Science) / B.S. (Computer Science)",
+    "philosophy_TH": "มุ่งเน้นการผลิตบัณฑิตที่มีทักษะขั้นสูงด้านวิทยาการคอมพิวเตอร์ ปัญญาประดิษฐ์ วิศวกรรมซอฟต์แวร์ และเทคโนโลยีดิจิทัล สามารถออกแบบและพัฒนานวัตกรรมที่มีมูลค่าสูง ตอบโจทย์อุตสาหกรรมและสังคมยุคใหม่ พร้อมคุณธรรม จริยธรรมในวิชาชีพ",
+    "philosophy_EN": "Dedicated to producing graduates with advanced computing capabilities in Computer Science, Artificial Intelligence, Software Engineering, and Digital Innovations, capable of designing and developing high-impact solutions for modern industry and society with professional ethics.",
+    "plans": {
+      "coop_minor": {
+        "id": "coop_minor",
+        "name_TH": "แผนสหกิจศึกษา (มีวิชาโท)",
+        "name_EN": "Co-operative Education Plan (With Minor)",
+        "total_credits": 123,
+        "categories": [
+          {
+            "id": "gened",
+            "name_TH": "หมวดวิชาศึกษาทั่วไป",
+            "name_EN": "General Education",
+            "credits": 24,
+            "note": "Language 9, Digital 3, Global 3, Innovation 3, Entrepreneur 3, GE Elective 3"
+          },
+          {
+            "id": "core",
+            "name_TH": "วิชาแกน",
+            "name_EN": "Core Courses",
+            "credits": 25,
+            "note": "Bio, Phys/Chem, Math 111, Math 183, Stat 269, CS 100, CS 111, CS 115, CS 255"
+          },
+          {
+            "id": "compulsory_shared",
+            "name_TH": "วิชาเอกบังคับร่วม",
+            "name_EN": "Shared Compulsory Courses",
+            "credits": 29,
+            "note": "11 required CS & Applied Math courses"
+          },
+          {
+            "id": "compulsory_plan",
+            "name_TH": "วิชาเอกบังคับประจำแผน (สหกิจศึกษา)",
+            "name_EN": "Plan Compulsory (Co-op 204496)",
+            "credits": 6,
+            "note": "204496 Cooperative Education"
+          },
+          {
+            "id": "major_electives",
+            "name_TH": "วิชาเอกเลือก",
+            "name_EN": "Major Electives (300-400)",
+            "credits": 18,
+            "note": "At least 9 credits at 400 level"
+          },
+          {
+            "id": "minor",
+            "name_TH": "หมวดวิชาโท",
+            "name_EN": "Academic Minor",
+            "credits": 15,
+            "note": "15 credits from any minor program in university"
+          },
+          {
+            "id": "free_electives",
+            "name_TH": "หมวดวิชาเลือกเสรี",
+            "name_EN": "Free Electives",
+            "credits": 6,
+            "note": "Any university courses"
+          }
+        ]
+      },
+      "coop_no_minor": {
+        "id": "coop_no_minor",
+        "name_TH": "แผนสหกิจศึกษา (ไม่มีวิชาโท - เน้นวิชาเอกเลือก ว.คพ.)",
+        "name_EN": "Co-operative Education Plan (No Minor - CS Elective Focus)",
+        "total_credits": 123,
+        "categories": [
+          {
+            "id": "gened",
+            "name_TH": "หมวดวิชาศึกษาทั่วไป",
+            "name_EN": "General Education",
+            "credits": 24,
+            "note": "Language 9, Digital 3, Global 3, Innovation 3, Entrepreneur 3, GE Elective 3"
+          },
+          {
+            "id": "core",
+            "name_TH": "วิชาแกน",
+            "name_EN": "Core Courses",
+            "credits": 25,
+            "note": "Bio, Phys/Chem, Math 111, Math 183, Stat 269, CS 100, CS 111, CS 115, CS 255"
+          },
+          {
+            "id": "compulsory_shared",
+            "name_TH": "วิชาเอกบังคับร่วม",
+            "name_EN": "Shared Compulsory Courses",
+            "credits": 29,
+            "note": "11 required CS & Applied Math courses"
+          },
+          {
+            "id": "compulsory_plan",
+            "name_TH": "วิชาเอกบังคับประจำแผน (สหกิจศึกษา)",
+            "name_EN": "Plan Compulsory (Co-op 204496)",
+            "credits": 6,
+            "note": "204496 Cooperative Education"
+          },
+          {
+            "id": "major_electives",
+            "name_TH": "วิชาเอกเลือก (ปกติ + เสริมแทนวิชาโท)",
+            "name_EN": "Major Electives (Base + CS Electives)",
+            "credits": 33,
+            "note": "18 credits regular + 15 credits CS electives at 300-400 level"
+          },
+          {
+            "id": "free_electives",
+            "name_TH": "หมวดวิชาเลือกเสรี",
+            "name_EN": "Free Electives",
+            "credits": 6,
+            "note": "Any university courses"
+          }
+        ]
+      },
+      "project_minor": {
+        "id": "project_minor",
+        "name_TH": "แผนมุ่งเน้นโครงงาน (มีวิชาโท)",
+        "name_EN": "Project-oriented Plan (With Minor)",
+        "total_credits": 126,
+        "categories": [
+          {
+            "id": "gened",
+            "name_TH": "หมวดวิชาศึกษาทั่วไป",
+            "name_EN": "General Education",
+            "credits": 24,
+            "note": "Language 9, Digital 3, Global 3, Innovation 3, Entrepreneur 3, GE Elective 3"
+          },
+          {
+            "id": "core",
+            "name_TH": "วิชาแกน",
+            "name_EN": "Core Courses",
+            "credits": 25,
+            "note": "Bio, Phys/Chem, Math 111, Math 183, Stat 269, CS 100, CS 111, CS 115, CS 255"
+          },
+          {
+            "id": "compulsory_shared",
+            "name_TH": "วิชาเอกบังคับร่วม",
+            "name_EN": "Shared Compulsory Courses",
+            "credits": 29,
+            "note": "11 required CS & Applied Math courses"
+          },
+          {
+            "id": "major_electives",
+            "name_TH": "วิชาเอกเลือก",
+            "name_EN": "Major Electives (300-400)",
+            "credits": 27,
+            "note": "At least 18 credits at 400 level & at least 15 credits project-based"
+          },
+          {
+            "id": "minor",
+            "name_TH": "หมวดวิชาโท",
+            "name_EN": "Academic Minor",
+            "credits": 15,
+            "note": "15 credits from any minor program in university"
+          },
+          {
+            "id": "free_electives",
+            "name_TH": "หมวดวิชาเลือกเสรี",
+            "name_EN": "Free Electives",
+            "credits": 6,
+            "note": "Any university courses"
+          }
+        ]
+      },
+      "project_no_minor": {
+        "id": "project_no_minor",
+        "name_TH": "แผนมุ่งเน้นโครงงาน (ไม่มีวิชาโท - เน้นวิชาเอกเลือก ว.คพ.)",
+        "name_EN": "Project-oriented Plan (No Minor - CS Elective Focus)",
+        "total_credits": 126,
+        "categories": [
+          {
+            "id": "gened",
+            "name_TH": "หมวดวิชาศึกษาทั่วไป",
+            "name_EN": "General Education",
+            "credits": 24,
+            "note": "Language 9, Digital 3, Global 3, Innovation 3, Entrepreneur 3, GE Elective 3"
+          },
+          {
+            "id": "core",
+            "name_TH": "วิชาแกน",
+            "name_EN": "Core Courses",
+            "credits": 25,
+            "note": "Bio, Phys/Chem, Math 111, Math 183, Stat 269, CS 100, CS 111, CS 115, CS 255"
+          },
+          {
+            "id": "compulsory_shared",
+            "name_TH": "วิชาเอกบังคับร่วม",
+            "name_EN": "Shared Compulsory Courses",
+            "credits": 29,
+            "note": "11 required CS & Applied Math courses"
+          },
+          {
+            "id": "major_electives",
+            "name_TH": "วิชาเอกเลือก (ปกติ + เสริมแทนวิชาโท)",
+            "name_EN": "Major Electives (Base + CS Electives)",
+            "credits": 42,
+            "note": "27 credits regular + 15 credits CS electives at 300-400 level"
+          },
+          {
+            "id": "free_electives",
+            "name_TH": "หมวดวิชาเลือกเสรี",
+            "name_EN": "Free Electives",
+            "credits": 6,
+            "note": "Any university courses"
+          }
+        ]
+      }
+    },
+    "category_course_lists": {
+      "gened_structure": {
+        "language": {
+          "id": "language",
+          "title_TH": "กลุ่มวิชาด้านทักษะทางการสื่อสารและภาษา",
+          "title_EN": "Language Literacy",
+          "credits": 9,
+          "credits_text": "9 หน่วยกิต",
+          "options": {
+            "below_b1": {
+              "id": "below_b1",
+              "name_TH": "ระดับ e-Pro ไม่ถึง B1 หรือเทียบเท่า",
+              "name_EN": "e-Pro Score Below B1 or Equivalent",
+              "description_TH": "เรียนครบทั้ง 3 กระบวนวิชา (รวม 9 หน่วยกิต)",
+              "description_EN": "Complete all 3 prescribed courses (9 credits total)",
+              "courses": [
+                {
+                  "id": "001101",
+                  "name_TH": "ภาษาอังกฤษพื้นฐาน 1",
+                  "name_EN": "Fundamental English 1",
+                  "credits": "3(3-0-6)",
+                  "type": "required"
+                },
+                {
+                  "id": "001102",
+                  "name_TH": "ภาษาอังกฤษพื้นฐาน 2",
+                  "name_EN": "Fundamental English 2",
+                  "credits": "3(3-0-6)",
+                  "type": "required"
+                },
+                {
+                  "id": "001225",
+                  "name_TH": "ภาษาอังกฤษสำหรับวิทยาศาสตร์และเทคโนโลยี",
+                  "name_EN": "English for Science and Technology",
+                  "credits": "3(3-0-6)",
+                  "type": "required"
+                }
+              ]
+            },
+            "b1_plus": {
+              "id": "b1_plus",
+              "name_TH": "ระดับ e-Pro ตั้งแต่ B1 ขึ้นไป หรือเทียบเท่า",
+              "name_EN": "e-Pro Score B1+ or Higher or Equivalent",
+              "description_TH": "วิชาบังคับ 3 หน่วยกิต + เลือกเรียน 6 หน่วยกิต (2 กระบวนวิชา) จากวิชาเลือกด้านล่าง",
+              "description_EN": "3 credits required + choose 6 credits (2 courses) from electives below",
+              "required_courses": [
+                {
+                  "id": "001225",
+                  "name_TH": "ภาษาอังกฤษสำหรับวิทยาศาสตร์และเทคโนโลยี",
+                  "name_EN": "English for Science and Technology",
+                  "credits": "3(3-0-6)",
+                  "type": "required"
+                }
+              ],
+              "elective_directive_TH": "เลือกเรียน 6 หน่วยกิต จากกระบวนวิชาต่อไปนี้ (หรือเทียบผลการสอบมาตรฐานภาษาอังกฤษตามประกาศ มช.):",
+              "elective_directive_EN": "Choose 6 credits from the following courses (or equivalent standardized test score):",
+              "elective_courses": [
+                {
+                  "id": "001201",
+                  "name_TH": "การอ่านอย่างมีวิจารณญาณและการเขียนอย่างมีประสิทธิภาพ",
+                  "name_EN": "Critical Reading and Effective Writing",
+                  "credits": "3(3-0-6)"
+                },
+                {
+                  "id": "001233",
+                  "name_TH": "ภาษาอังกฤษสำหรับการสอบมาตรฐาน",
+                  "name_EN": "English for Standardized Tests",
+                  "credits": "3(3-0-6)"
+                },
+                {
+                  "id": "001241",
+                  "name_TH": "การพูดภาษาอังกฤษเพื่อการสื่อสาร",
+                  "name_EN": "Oral Communication in English",
+                  "credits": "3(3-0-6)"
+                },
+                {
+                  "id": "001242",
+                  "name_TH": "เปิดโลกทักษะการอ่านและการเขียน",
+                  "name_EN": "Exploring Reading and Writing Skills",
+                  "credits": "3(3-0-6)"
+                },
+                {
+                  "id": "001243",
+                  "name_TH": "พื้นฐานการเขียนเรียงความอย่างมีประสิทธิภาพ",
+                  "name_EN": "Basics of Effective Essay Writing",
+                  "credits": "3(3-0-6)"
+                },
+                {
+                  "id": "001249",
+                  "name_TH": "ภาษาอังกฤษเพื่อการเดินทางท่องเที่ยว",
+                  "name_EN": "English for Travelling",
+                  "credits": "3(3-0-6)"
+                }
+              ]
+            }
+          }
+        },
+        "digital": {
+          "id": "digital",
+          "title_TH": "กลุ่มวิชาด้านทักษะความเข้าใจและการใช้เทคโนโลยีดิจิทัล",
+          "title_EN": "Digital Literacy",
+          "credits": 3,
+          "credits_text": "3 หน่วยกิต",
+          "is_fixed": true,
+          "courses": [
+            {
+              "id": "204100",
+              "name_TH": "เรื่องน่ารู้ทางปัญญาประดิษฐ์และดิจิทัล",
+              "name_EN": "Artificial Intelligence and Digital Essentials",
+              "credits": "3(3-0-6)",
+              "type": "required"
+            }
+          ]
+        },
+        "global": {
+          "id": "global",
+          "title_TH": "กลุ่มวิชาด้านทักษะการเป็นพลเมืองโลก",
+          "title_EN": "Global Citizen",
+          "credits": 3,
+          "credits_text": "3 หน่วยกิต",
+          "is_fixed": true,
+          "courses": [
+            {
+              "id": "140104",
+              "name_TH": "การเป็นพลเมือง",
+              "name_EN": "Citizenship",
+              "credits": "3(3-0-6)",
+              "type": "required"
+            }
+          ]
+        },
+        "creativity": {
+          "id": "creativity",
+          "title_TH": "กลุ่มวิชาด้านทักษะการคิดสร้างสรรค์และนวัตกรรม",
+          "title_EN": "Creativity and Innovation",
+          "credits": 3,
+          "credits_text": "3 หน่วยกิต",
+          "directive_TH": "เลือกเรียน 3 หน่วยกิต (1 วิชา) จากกระบวนวิชาต่อไปนี้:",
+          "directive_EN": "Choose 3 credits (1 course) from the following courses:",
+          "courses": [
+            {
+              "id": "201116",
+              "name_TH": "วิทยาศาสตร์และภาวะโลกร้อน",
+              "name_EN": "Science and Global Warming",
+              "credits": "3(3-0-6)"
+            },
+            {
+              "id": "201190",
+              "name_TH": "การคิดอย่างมีวิจารณญาณ การแก้ปัญหา และการสื่อสารทางวิทยาศาสตร์",
+              "name_EN": "Critical Thinking, Problem Solving and Science Communication",
+              "credits": "3(3-0-6)"
+            },
+            {
+              "id": "271111",
+              "name_TH": "หุ่นยนต์วิจักษณ์",
+              "name_EN": "Robotics Appreciation",
+              "credits": "3(3-0-6)"
+            }
+          ]
+        },
+        "entrepreneur": {
+          "id": "entrepreneur",
+          "title_TH": "กลุ่มวิชาด้านทักษะการเป็นผู้ประกอบการ",
+          "title_EN": "Entrepreneurial Skills",
+          "credits": 3,
+          "credits_text": "3 หน่วยกิต",
+          "directive_TH": "เลือกเรียน 3 หน่วยกิต (1 วิชา) จากกระบวนวิชาต่อไปนี้:",
+          "directive_EN": "Choose 3 credits (1 course) from the following courses:",
+          "courses": [
+            {
+              "id": "702101",
+              "name_TH": "การเงินในชีวิตประจำวัน",
+              "name_EN": "Finance for Daily Life",
+              "credits": "3(3-0-6)"
+            },
+            {
+              "id": "751100",
+              "name_TH": "เศรษฐศาสตร์ในชีวิตประจำวัน",
+              "name_EN": "Economics for Everyday Life",
+              "credits": "3(3-0-6)"
+            },
+            {
+              "id": "888107",
+              "name_TH": "การเริ่มต้นธุรกิจบนดิจิทัลแพลตฟอร์ม",
+              "name_EN": "Business Startup on Digital Platform",
+              "credits": "3(3-0-6)"
+            }
+          ]
+        },
+        "digital_global_ai": {
+          "id": "digital_global_ai",
+          "title_TH": "กลุ่มวิชาด้านทักษะดิจิทัล หรือ พลเมืองโลก หรือ ปัญญาประดิษฐ์",
+          "title_EN": "Digital Literacy or Global Citizen or Artificial Intelligence",
+          "credits": 3,
+          "credits_text": "3 หน่วยกิต",
+          "directive_TH": "เลือกเรียน 3 หน่วยกิต (1 วิชา) จากกระบวนวิชาต่อไปนี้:",
+          "directive_EN": "Choose 3 credits (1 course) from the following courses:",
+          "courses": [
+            {
+              "id": "201111",
+              "name_TH": "โลกแห่งวิทยาศาสตร์",
+              "name_EN": "The World of Science",
+              "credits": "3(3-0-6)"
+            },
+            {
+              "id": "201114",
+              "name_TH": "วิทยาศาสตร์สิ่งแวดล้อมในโลกปัจจุบัน",
+              "name_EN": "Environmental Science in Today's World",
+              "credits": "3(3-0-6)"
+            },
+            {
+              "id": "204123",
+              "name_TH": "วิทยาการข้อมูลเบื้องต้น",
+              "name_EN": "Introduction to Data Science",
+              "credits": "3(2-2-5)"
+            },
+            {
+              "id": "204171",
+              "name_TH": "ปัญญาประดิษฐ์ท่ามกลางพวกเรา",
+              "name_EN": "Artificial Intelligence Among Us",
+              "credits": "3(3-0-6)"
+            }
+          ]
+        }
+      },
+      "gened": [
+        {
+          "id": "001101",
+          "name_TH": "ภาษาอังกฤษพื้นฐาน 1",
+          "name_EN": "Fundamental English 1",
+          "credits": "3(3-0-6)",
+          "group": "Language Literacy (9 cr)"
+        },
+        {
+          "id": "001102",
+          "name_TH": "ภาษาอังกฤษพื้นฐาน 2",
+          "name_EN": "Fundamental English 2",
+          "credits": "3(3-0-6)",
+          "group": "Language Literacy (9 cr)"
+        },
+        {
+          "id": "001225",
+          "name_TH": "ภาษาอังกฤษสำหรับวิทยาศาสตร์และเทคโนโลยี",
+          "name_EN": "English for Science and Technology",
+          "credits": "3(3-0-6)",
+          "group": "Language Literacy (9 cr)"
+        },
+        {
+          "id": "204100",
+          "name_TH": "เรื่องน่ารู้ทางปัญญาประดิษฐ์และดิจิทัล",
+          "name_EN": "Artificial Intelligence and Digital Essentials",
+          "credits": "3(3-0-6)",
+          "group": "Digital Literacy (3 cr)"
+        },
+        {
+          "id": "140104",
+          "name_TH": "การเป็นพลเมือง",
+          "name_EN": "Citizenship",
+          "credits": "3(3-0-6)",
+          "group": "Global Citizen (3 cr)"
+        },
+        {
+          "id": "GE_CREAT",
+          "name_TH": "วิชาศึกษาทั่วไป กลุ่มทักษะการคิดสร้างสรรค์และนวัตกรรม",
+          "name_EN": "GE Course in Creativity and Innovation",
+          "credits": "3(3-0-6)",
+          "group": "Creativity & Innovation (3 cr)"
+        },
+        {
+          "id": "GE_ENTREP",
+          "name_TH": "วิชาศึกษาทั่วไป กลุ่มทักษะการเป็นผู้ประกอบการ",
+          "name_EN": "GE Course in Entrepreneurial Skills",
+          "credits": "3(3-0-6)",
+          "group": "Entrepreneurial Skills (3 cr)"
+        },
+        {
+          "id": "GE_ELEC",
+          "name_TH": "วิชาศึกษาทั่วไป กลุ่มดิจิทัล หรือ พลเมืองโลก หรือ AI",
+          "name_EN": "GE Course in Digital / Global / AI",
+          "credits": "3(3-0-6)",
+          "group": "Digital / Global / AI (3 cr)"
+        }
+      ],
+      "core": [
+        {
+          "id": "202101",
+          "name_TH": "ชีววิทยาพื้นฐาน 1",
+          "name_EN": "Basic Biology 1",
+          "credits": "3(3-0-6)"
+        },
+        {
+          "id": "204100",
+          "name_TH": "เรื่องน่ารู้ทางปัญญาประดิษฐ์และดิจิทัล",
+          "name_EN": "Artificial Intelligence and Digital Essentials",
+          "credits": "3(3-0-6)"
+        },
+        {
+          "id": "204111",
+          "name_TH": "การเขียนโปรแกรมเบื้องต้น",
+          "name_EN": "Fundamentals of Programming",
+          "credits": "3(2-2-5)"
+        },
+        {
+          "id": "204115",
+          "name_TH": "หลักการเขียนโปรแกรมเชิงฟังก์ชัน",
+          "name_EN": "Principles of Functional Programming",
+          "credits": "3(2-2-5)"
+        },
+        {
+          "id": "204255",
+          "name_TH": "การเขียนโปรแกรมเชิงวัตถุและโครงสร้างข้อมูล",
+          "name_EN": "Object-Oriented Programming and Data Structures",
+          "credits": "4(3-2-7)"
+        },
+        {
+          "id": "206111",
+          "name_TH": "แคลคูลัส 1",
+          "name_EN": "Calculus 1",
+          "credits": "3(3-0-6)"
+        },
+        {
+          "id": "206183",
+          "name_TH": "โครงสร้างวิยุต",
+          "name_EN": "Discrete Structure",
+          "credits": "3(3-0-6)"
+        },
+        {
+          "id": "207187",
+          "name_TH": "ฟิสิกส์ 1 (หรือ 203103 เคมีทั่วไป 1)",
+          "name_EN": "Physics 1 (or 203103 General Chemistry 1)",
+          "credits": "3(3-0-6)"
+        },
+        {
+          "id": "208269",
+          "name_TH": "สถิติสำหรับวิทยาการคอมพิวเตอร์",
+          "name_EN": "Statistics for Computer Science",
+          "credits": "3(3-0-6)"
+        }
+      ],
+      "compulsory": [
+        {
+          "id": "204212",
+          "name_TH": "การพัฒนาเว็บแอปพลิเคชันแบบฟูลสแต๊ก",
+          "name_EN": "Full-stack Web Application Development",
+          "credits": "3(2-2-5)",
+          "group": "Shared"
+        },
+        {
+          "id": "204231",
+          "name_TH": "การจัดระบบและสถาปัตยกรรมคอมพิวเตอร์",
+          "name_EN": "Computer Organization and Architecture",
+          "credits": "3(2-2-5)",
+          "group": "Shared"
+        },
+        {
+          "id": "204232",
+          "name_TH": "เครือข่ายคอมพิวเตอร์และเกณฑ์วิธี",
+          "name_EN": "Computer Networks and Protocols",
+          "credits": "3(3-0-6)",
+          "group": "Shared"
+        },
+        {
+          "id": "204271",
+          "name_TH": "ปัญญาประดิษฐ์เบื้องต้น",
+          "name_EN": "Introduction to Artificial Intelligence",
+          "credits": "3(2-2-5)",
+          "group": "Shared"
+        },
+        {
+          "id": "204306",
+          "name_TH": "จริยธรรมสำหรับผู้ประกอบวิชาชีพคอมพิวเตอร์",
+          "name_EN": "Ethics for Computer Professionals",
+          "credits": "1(1-0-2)",
+          "group": "Shared"
+        },
+        {
+          "id": "204315",
+          "name_TH": "การจัดระเบียบของภาษาโปรแกรม",
+          "name_EN": "Organization of Programming Languages",
+          "credits": "3(3-0-6)",
+          "group": "Shared"
+        },
+        {
+          "id": "204321",
+          "name_TH": "ระบบฐานข้อมูล",
+          "name_EN": "Database Systems",
+          "credits": "3(2-2-5)",
+          "group": "Shared"
+        },
+        {
+          "id": "204361",
+          "name_TH": "วิศวกรรมซอฟต์แวร์",
+          "name_EN": "Software Engineering",
+          "credits": "3(3-0-6)",
+          "group": "Shared"
+        },
+        {
+          "id": "204451",
+          "name_TH": "การออกแบบและการวิเคราะห์อัลกอริทึม",
+          "name_EN": "Algorithm Design and Analysis",
+          "credits": "3(3-0-6)",
+          "group": "Shared"
+        },
+        {
+          "id": "204497",
+          "name_TH": "สัมมนาทางวิทยาการคอมพิวเตอร์",
+          "name_EN": "Seminar in Computer Science",
+          "credits": "1(1-0-2)",
+          "group": "Shared"
+        },
+        {
+          "id": "206324",
+          "name_TH": "พีชคณิตเชิงเส้นประยุกต์",
+          "name_EN": "Applied Linear Algebra",
+          "credits": "3(3-0-6)",
+          "group": "Shared"
+        },
+        {
+          "id": "204496",
+          "name_TH": "สหกิจศึกษา (เฉพาะแผนสหกิจศึกษา)",
+          "name_EN": "Cooperative Education (Co-op Plan Only)",
+          "credits": "6 หน่วยกิต",
+          "group": "Co-op Plan Only"
+        }
+      ]
+    },
+    "study_plans": {
+      "coop": [
+        {
+          "semester": "Y1S1",
+          "year": 1,
+          "term": 1,
+          "total_credits": 18,
+          "courses": [
+            {
+              "id": "140104",
+              "name_TH": "การเป็นพลเมือง",
+              "name_EN": "Citizenship",
+              "credits": "3(3-0-6)",
+              "type": "gened"
+            },
+            {
+              "id": "204111",
+              "name_TH": "การเขียนโปรแกรมเบื้องต้น",
+              "name_EN": "Fundamentals of Programming",
+              "credits": "3(2-2-5)",
+              "type": "core"
+            },
+            {
+              "id": "206111",
+              "name_TH": "แคลคูลัส 1",
+              "name_EN": "Calculus 1",
+              "credits": "3(3-0-6)",
+              "type": "core"
+            },
+            {
+              "id": "206183",
+              "name_TH": "โครงสร้างวิยุต",
+              "name_EN": "Discrete Structure",
+              "credits": "3(3-0-6)",
+              "type": "core"
+            },
+            {
+              "id": "001101",
+              "name_TH": "ภาษาอังกฤษพื้นฐาน 1 (หรือ ENGL 225)",
+              "name_EN": "Fundamental English 1 (or ENGL 225)",
+              "credits": "3(3-0-6)",
+              "type": "gened"
+            },
+            {
+              "id": "GE_CREAT",
+              "name_TH": "วิชาศึกษาทั่วไป (ทักษะการคิดสร้างสรรค์และนวัตกรรม)",
+              "name_EN": "GE Course in Creativity & Innovation",
+              "credits": "3(3-0-6)",
+              "type": "gened"
+            }
+          ]
+        },
+        {
+          "semester": "Y1S2",
+          "year": 1,
+          "term": 2,
+          "total_credits": 18,
+          "courses": [
+            {
+              "id": "202101",
+              "name_TH": "ชีววิทยาพื้นฐาน 1",
+              "name_EN": "Basic Biology 1",
+              "credits": "3(3-0-6)",
+              "type": "core"
+            },
+            {
+              "id": "204100",
+              "name_TH": "เรื่องน่ารู้ทางปัญญาประดิษฐ์และดิจิทัล",
+              "name_EN": "AI and Digital Essentials",
+              "credits": "3(3-0-6)",
+              "type": "core"
+            },
+            {
+              "id": "204115",
+              "name_TH": "หลักการเขียนโปรแกรมเชิงฟังก์ชัน",
+              "name_EN": "Principles of Functional Programming",
+              "credits": "3(2-2-5)",
+              "type": "core"
+            },
+            {
+              "id": "207187",
+              "name_TH": "ฟิสิกส์ 1",
+              "name_EN": "Physics 1",
+              "credits": "3(3-0-6)",
+              "type": "core"
+            },
+            {
+              "id": "001102",
+              "name_TH": "ภาษาอังกฤษพื้นฐาน 2 (หรือวิชาที่กำหนด)",
+              "name_EN": "Fundamental English 2 (or designated)",
+              "credits": "3(3-0-6)",
+              "type": "gened"
+            },
+            {
+              "id": "GE_ENTREP",
+              "name_TH": "วิชาศึกษาทั่วไป (ทักษะการเป็นผู้ประกอบการ)",
+              "name_EN": "GE Course in Entrepreneurial Skills",
+              "credits": "3(3-0-6)",
+              "type": "gened"
+            }
+          ]
+        },
+        {
+          "semester": "Y2S1",
+          "year": 2,
+          "term": 1,
+          "total_credits": 19,
+          "courses": [
+            {
+              "id": "001225",
+              "name_TH": "ภาษาอังกฤษสำหรับวิทยาศาสตร์และเทคโนโลยี",
+              "name_EN": "English for Science and Technology",
+              "credits": "3(3-0-6)",
+              "type": "gened"
+            },
+            {
+              "id": "204231",
+              "name_TH": "การจัดระบบและสถาปัตยกรรมคอมพิวเตอร์",
+              "name_EN": "Computer Organization & Architecture",
+              "credits": "3(2-2-5)",
+              "type": "compulsory"
+            },
+            {
+              "id": "204255",
+              "name_TH": "การเขียนโปรแกรมเชิงวัตถุและโครงสร้างข้อมูล",
+              "name_EN": "OOP and Data Structures",
+              "credits": "4(3-2-7)",
+              "type": "core"
+            },
+            {
+              "id": "208269",
+              "name_TH": "สถิติสำหรับวิทยาการคอมพิวเตอร์",
+              "name_EN": "Statistics for Computer Science",
+              "credits": "3(3-0-6)",
+              "type": "core"
+            },
+            {
+              "id": "GE_DIGI",
+              "name_TH": "วิชาศึกษาทั่วไป (ดิจิทัล/พลเมืองโลก/AI)",
+              "name_EN": "GE Course (Digital/Global/AI)",
+              "credits": "3(3-0-6)",
+              "type": "gened"
+            },
+            {
+              "id": "ELEC_OR_MINOR_1",
+              "name_TH": "วิชาเอกเลือก หรือ วิชาโท (1)",
+              "name_EN": "Major Elective or Minor (1)",
+              "credits": "3(3-0-6)",
+              "type": "elective"
+            }
+          ]
+        },
+        {
+          "semester": "Y2S2",
+          "year": 2,
+          "term": 2,
+          "total_credits": 18,
+          "courses": [
+            {
+              "id": "204212",
+              "name_TH": "การพัฒนาเว็บแอปพลิเคชันแบบฟูลสแต๊ก",
+              "name_EN": "Full-stack Web App Development",
+              "credits": "3(2-2-5)",
+              "type": "compulsory"
+            },
+            {
+              "id": "204232",
+              "name_TH": "เครือข่ายคอมพิวเตอร์และเกณฑ์วิธี",
+              "name_EN": "Computer Networks and Protocols",
+              "credits": "3(3-0-6)",
+              "type": "compulsory"
+            },
+            {
+              "id": "204271",
+              "name_TH": "ปัญญาประดิษฐ์เบื้องต้น",
+              "name_EN": "Intro to Artificial Intelligence",
+              "credits": "3(2-2-5)",
+              "type": "compulsory"
+            },
+            {
+              "id": "206324",
+              "name_TH": "พีชคณิตเชิงเส้นประยุกต์",
+              "name_EN": "Applied Linear Algebra",
+              "credits": "3(3-0-6)",
+              "type": "compulsory"
+            },
+            {
+              "id": "CS_ELEC_300_1",
+              "name_TH": "วิชาเอกเลือก ว.คพ. ระดับ 300 หรือ 400",
+              "name_EN": "Major Elective Level 300/400",
+              "credits": "3(3-0-6)",
+              "type": "elective"
+            },
+            {
+              "id": "ELEC_OR_MINOR_2",
+              "name_TH": "วิชาเอกเลือก หรือ วิชาโท (2)",
+              "name_EN": "Major Elective or Minor (2)",
+              "credits": "3(3-0-6)",
+              "type": "elective"
+            }
+          ]
+        },
+        {
+          "semester": "Y3S1",
+          "year": 3,
+          "term": 1,
+          "total_credits": 15,
+          "courses": [
+            {
+              "id": "204321",
+              "name_TH": "ระบบฐานข้อมูล",
+              "name_EN": "Database Systems",
+              "credits": "3(2-2-5)",
+              "type": "compulsory"
+            },
+            {
+              "id": "204361",
+              "name_TH": "วิศวกรรมซอฟต์แวร์",
+              "name_EN": "Software Engineering",
+              "credits": "3(3-0-6)",
+              "type": "compulsory"
+            },
+            {
+              "id": "204451",
+              "name_TH": "การออกแบบและการวิเคราะห์อัลกอริทึม",
+              "name_EN": "Algorithm Design and Analysis",
+              "credits": "3(3-0-6)",
+              "type": "compulsory"
+            },
+            {
+              "id": "FREE_ELEC_1",
+              "name_TH": "วิชาเลือกเสรี (1)",
+              "name_EN": "Free Elective (1)",
+              "credits": "3(3-0-6)",
+              "type": "free"
+            },
+            {
+              "id": "ELEC_OR_MINOR_3",
+              "name_TH": "วิชาเอกเลือก หรือ วิชาโท (3)",
+              "name_EN": "Major Elective or Minor (3)",
+              "credits": "3(3-0-6)",
+              "type": "elective"
+            }
+          ]
+        },
+        {
+          "semester": "Y3S2",
+          "year": 3,
+          "term": 2,
+          "total_credits": 16,
+          "courses": [
+            {
+              "id": "204306",
+              "name_TH": "จริยธรรมสำหรับผู้ประกอบวิชาชีพคอมพิวเตอร์",
+              "name_EN": "Ethics for Computer Professionals",
+              "credits": "1(1-0-2)",
+              "type": "compulsory"
+            },
+            {
+              "id": "204315",
+              "name_TH": "การจัดระเบียบของภาษาโปรแกรม",
+              "name_EN": "Organization of Programming Languages",
+              "credits": "3(3-0-6)",
+              "type": "compulsory"
+            },
+            {
+              "id": "CS_ELEC_300_2",
+              "name_TH": "วิชาเอกเลือก ว.คพ. ระดับ 300 หรือ 400 (ก)",
+              "name_EN": "Major Elective Level 300/400 (A)",
+              "credits": "3(3-0-6)",
+              "type": "elective"
+            },
+            {
+              "id": "CS_ELEC_300_3",
+              "name_TH": "วิชาเอกเลือก ว.คพ. ระดับ 300 หรือ 400 (ข)",
+              "name_EN": "Major Elective Level 300/400 (B)",
+              "credits": "3(3-0-6)",
+              "type": "elective"
+            },
+            {
+              "id": "ELEC_OR_MINOR_4",
+              "name_TH": "วิชาเอกเลือก หรือ วิชาโท (4)",
+              "name_EN": "Major Elective or Minor (4)",
+              "credits": "3(3-0-6)",
+              "type": "elective"
+            },
+            {
+              "id": "FREE_ELEC_2",
+              "name_TH": "วิชาเลือกเสรี (2)",
+              "name_EN": "Free Elective (2)",
+              "credits": "3(3-0-6)",
+              "type": "free"
+            }
+          ]
+        },
+        {
+          "semester": "Y4S1",
+          "year": 4,
+          "term": 1,
+          "total_credits": 6,
+          "courses": [
+            {
+              "id": "204496",
+              "name_TH": "สหกิจศึกษา",
+              "name_EN": "Cooperative Education",
+              "credits": "6 หน่วยกิต",
+              "type": "compulsory"
+            }
+          ]
+        },
+        {
+          "semester": "Y4S2",
+          "year": 4,
+          "term": 2,
+          "total_credits": 19,
+          "courses": [
+            {
+              "id": "204497",
+              "name_TH": "สัมมนาทางวิทยาการคอมพิวเตอร์",
+              "name_EN": "Seminar in Computer Science",
+              "credits": "1(1-0-2)",
+              "type": "compulsory"
+            },
+            {
+              "id": "CS_ELEC_400_1",
+              "name_TH": "วิชาเอกเลือกระดับ 400 (1)",
+              "name_EN": "Major Elective Level 400 (1)",
+              "credits": "3(3-0-6)",
+              "type": "elective"
+            },
+            {
+              "id": "CS_ELEC_400_2",
+              "name_TH": "วิชาเอกเลือกระดับ 400 (2)",
+              "name_EN": "Major Elective Level 400 (2)",
+              "credits": "3(3-0-6)",
+              "type": "elective"
+            },
+            {
+              "id": "CS_ELEC_400_3",
+              "name_TH": "วิชาเอกเลือกระดับ 400 (3)",
+              "name_EN": "Major Elective Level 400 (3)",
+              "credits": "3(3-0-6)",
+              "type": "elective"
+            },
+            {
+              "id": "ELEC_OR_MINOR_5",
+              "name_TH": "วิชาเอกเลือก หรือ วิชาโท (5)",
+              "name_EN": "Major Elective or Minor (5)",
+              "credits": "3(3-0-6)",
+              "type": "elective"
+            },
+            {
+              "id": "CS_ELEC_EXTRA",
+              "name_TH": "วิชาเอกเลือก ว.คพ. เพิ่มเติม",
+              "name_EN": "Major Elective Course",
+              "credits": "3(3-0-6)",
+              "type": "elective",
+              "note": "Adjusted to fulfill 129 credits"
+            }
+          ]
+        }
+      ],
+      "project": [
+        {
+          "semester": "Y1S1",
+          "year": 1,
+          "term": 1,
+          "total_credits": 18,
+          "courses": [
+            {
+              "id": "140104",
+              "name_TH": "การเป็นพลเมือง",
+              "name_EN": "Citizenship",
+              "credits": "3(3-0-6)",
+              "type": "gened"
+            },
+            {
+              "id": "204111",
+              "name_TH": "การเขียนโปรแกรมเบื้องต้น",
+              "name_EN": "Fundamentals of Programming",
+              "credits": "3(2-2-5)",
+              "type": "core"
+            },
+            {
+              "id": "206111",
+              "name_TH": "แคลคูลัส 1",
+              "name_EN": "Calculus 1",
+              "credits": "3(3-0-6)",
+              "type": "core"
+            },
+            {
+              "id": "206183",
+              "name_TH": "โครงสร้างวิยุต",
+              "name_EN": "Discrete Structure",
+              "credits": "3(3-0-6)",
+              "type": "core"
+            },
+            {
+              "id": "001101",
+              "name_TH": "ภาษาอังกฤษพื้นฐาน 1 (หรือ ENGL 225)",
+              "name_EN": "Fundamental English 1 (or ENGL 225)",
+              "credits": "3(3-0-6)",
+              "type": "gened"
+            },
+            {
+              "id": "GE_CREAT",
+              "name_TH": "วิชาศึกษาทั่วไป (ทักษะการคิดสร้างสรรค์และนวัตกรรม)",
+              "name_EN": "GE Course in Creativity & Innovation",
+              "credits": "3(3-0-6)",
+              "type": "gened"
+            }
+          ]
+        },
+        {
+          "semester": "Y1S2",
+          "year": 1,
+          "term": 2,
+          "total_credits": 18,
+          "courses": [
+            {
+              "id": "202101",
+              "name_TH": "ชีววิทยาพื้นฐาน 1",
+              "name_EN": "Basic Biology 1",
+              "credits": "3(3-0-6)",
+              "type": "core"
+            },
+            {
+              "id": "204100",
+              "name_TH": "เรื่องน่ารู้ทางปัญญาประดิษฐ์และดิจิทัล",
+              "name_EN": "AI and Digital Essentials",
+              "credits": "3(3-0-6)",
+              "type": "core"
+            },
+            {
+              "id": "204115",
+              "name_TH": "หลักการเขียนโปรแกรมเชิงฟังก์ชัน",
+              "name_EN": "Principles of Functional Programming",
+              "credits": "3(2-2-5)",
+              "type": "core"
+            },
+            {
+              "id": "207187",
+              "name_TH": "ฟิสิกส์ 1",
+              "name_EN": "Physics 1",
+              "credits": "3(3-0-6)",
+              "type": "core"
+            },
+            {
+              "id": "001102",
+              "name_TH": "ภาษาอังกฤษพื้นฐาน 2 (หรือวิชาที่กำหนด)",
+              "name_EN": "Fundamental English 2 (or designated)",
+              "credits": "3(3-0-6)",
+              "type": "gened"
+            },
+            {
+              "id": "GE_ENTREP",
+              "name_TH": "วิชาศึกษาทั่วไป (ทักษะการเป็นผู้ประกอบการ)",
+              "name_EN": "GE Course in Entrepreneurial Skills",
+              "credits": "3(3-0-6)",
+              "type": "gened"
+            }
+          ]
+        },
+        {
+          "semester": "Y2S1",
+          "year": 2,
+          "term": 1,
+          "total_credits": 19,
+          "courses": [
+            {
+              "id": "001225",
+              "name_TH": "ภาษาอังกฤษสำหรับวิทยาศาสตร์และเทคโนโลยี",
+              "name_EN": "English for Science and Technology",
+              "credits": "3(3-0-6)",
+              "type": "gened"
+            },
+            {
+              "id": "204231",
+              "name_TH": "การจัดระบบและสถาปัตยกรรมคอมพิวเตอร์",
+              "name_EN": "Computer Organization & Architecture",
+              "credits": "3(2-2-5)",
+              "type": "compulsory"
+            },
+            {
+              "id": "204255",
+              "name_TH": "การเขียนโปรแกรมเชิงวัตถุและโครงสร้างข้อมูล",
+              "name_EN": "OOP and Data Structures",
+              "credits": "4(3-2-7)",
+              "type": "core"
+            },
+            {
+              "id": "208269",
+              "name_TH": "สถิติสำหรับวิทยาการคอมพิวเตอร์",
+              "name_EN": "Statistics for Computer Science",
+              "credits": "3(3-0-6)",
+              "type": "core"
+            },
+            {
+              "id": "GE_DIGI",
+              "name_TH": "วิชาศึกษาทั่วไป (ดิจิทัล/พลเมืองโลก/AI)",
+              "name_EN": "GE Course (Digital/Global/AI)",
+              "credits": "3(3-0-6)",
+              "type": "gened"
+            },
+            {
+              "id": "ELEC_OR_MINOR_1",
+              "name_TH": "วิชาเอกเลือก หรือ วิชาโท (1)",
+              "name_EN": "Major Elective or Minor (1)",
+              "credits": "3(3-0-6)",
+              "type": "elective"
+            }
+          ]
+        },
+        {
+          "semester": "Y2S2",
+          "year": 2,
+          "term": 2,
+          "total_credits": 18,
+          "courses": [
+            {
+              "id": "204212",
+              "name_TH": "การพัฒนาเว็บแอปพลิเคชันแบบฟูลสแต๊ก",
+              "name_EN": "Full-stack Web App Development",
+              "credits": "3(2-2-5)",
+              "type": "compulsory"
+            },
+            {
+              "id": "204232",
+              "name_TH": "เครือข่ายคอมพิวเตอร์และเกณฑ์วิธี",
+              "name_EN": "Computer Networks and Protocols",
+              "credits": "3(3-0-6)",
+              "type": "compulsory"
+            },
+            {
+              "id": "204271",
+              "name_TH": "ปัญญาประดิษฐ์เบื้องต้น",
+              "name_EN": "Intro to Artificial Intelligence",
+              "credits": "3(2-2-5)",
+              "type": "compulsory"
+            },
+            {
+              "id": "206324",
+              "name_TH": "พีชคณิตเชิงเส้นประยุกต์",
+              "name_EN": "Applied Linear Algebra",
+              "credits": "3(3-0-6)",
+              "type": "compulsory"
+            },
+            {
+              "id": "CS_ELEC_300_1",
+              "name_TH": "วิชาเอกเลือก ว.คพ. ระดับ 300 หรือ 400",
+              "name_EN": "Major Elective Level 300/400",
+              "credits": "3(3-0-6)",
+              "type": "elective"
+            },
+            {
+              "id": "ELEC_OR_MINOR_2",
+              "name_TH": "วิชาเอกเลือก หรือ วิชาโท (2)",
+              "name_EN": "Major Elective or Minor (2)",
+              "credits": "3(3-0-6)",
+              "type": "elective"
+            }
+          ]
+        },
+        {
+          "semester": "Y3S1",
+          "year": 3,
+          "term": 1,
+          "total_credits": 15,
+          "courses": [
+            {
+              "id": "204321",
+              "name_TH": "ระบบฐานข้อมูล",
+              "name_EN": "Database Systems",
+              "credits": "3(2-2-5)",
+              "type": "compulsory"
+            },
+            {
+              "id": "204361",
+              "name_TH": "วิศวกรรมซอฟต์แวร์",
+              "name_EN": "Software Engineering",
+              "credits": "3(3-0-6)",
+              "type": "compulsory"
+            },
+            {
+              "id": "204451",
+              "name_TH": "การออกแบบและการวิเคราะห์อัลกอริทึม",
+              "name_EN": "Algorithm Design and Analysis",
+              "credits": "3(3-0-6)",
+              "type": "compulsory"
+            },
+            {
+              "id": "FREE_ELEC_1",
+              "name_TH": "วิชาเลือกเสรี (1)",
+              "name_EN": "Free Elective (1)",
+              "credits": "3(3-0-6)",
+              "type": "free"
+            },
+            {
+              "id": "ELEC_OR_MINOR_3",
+              "name_TH": "วิชาเอกเลือก หรือ วิชาโท (3)",
+              "name_EN": "Major Elective or Minor (3)",
+              "credits": "3(3-0-6)",
+              "type": "elective"
+            }
+          ]
+        },
+        {
+          "semester": "Y3S2",
+          "year": 3,
+          "term": 2,
+          "total_credits": 16,
+          "courses": [
+            {
+              "id": "204306",
+              "name_TH": "จริยธรรมสำหรับผู้ประกอบวิชาชีพคอมพิวเตอร์",
+              "name_EN": "Ethics for Computer Professionals",
+              "credits": "1(1-0-2)",
+              "type": "compulsory"
+            },
+            {
+              "id": "204315",
+              "name_TH": "การจัดระเบียบของภาษาโปรแกรม",
+              "name_EN": "Organization of Programming Languages",
+              "credits": "3(3-0-6)",
+              "type": "compulsory"
+            },
+            {
+              "id": "CS_ELEC_300_2",
+              "name_TH": "วิชาเอกเลือกระดับ 300/400 (เน้นโครงงาน 1)",
+              "name_EN": "Major Elective (Project-based 1)",
+              "credits": "3(3-0-6)",
+              "type": "project_elective"
+            },
+            {
+              "id": "CS_ELEC_300_3",
+              "name_TH": "วิชาเอกเลือกระดับ 300/400 (เน้นโครงงาน 2)",
+              "name_EN": "Major Elective (Project-based 2)",
+              "credits": "3(3-0-6)",
+              "type": "project_elective"
+            },
+            {
+              "id": "ELEC_OR_MINOR_4",
+              "name_TH": "วิชาเอกเลือก หรือ วิชาโท (4)",
+              "name_EN": "Major Elective or Minor (4)",
+              "credits": "3(3-0-6)",
+              "type": "elective"
+            },
+            {
+              "id": "FREE_ELEC_2",
+              "name_TH": "วิชาเลือกเสรี (2)",
+              "name_EN": "Free Elective (2)",
+              "credits": "3(3-0-6)",
+              "type": "free"
+            }
+          ]
+        },
+        {
+          "semester": "Y4S1",
+          "year": 4,
+          "term": 1,
+          "total_credits": 15,
+          "courses": [
+            {
+              "id": "CS_ELEC_400_P1",
+              "name_TH": "วิชาเอกเลือกระดับ 400 (เน้นโครงงาน 3)",
+              "name_EN": "Major Elective 400 (Project-based 3)",
+              "credits": "3(3-0-6)",
+              "type": "project_elective"
+            },
+            {
+              "id": "CS_ELEC_400_P2",
+              "name_TH": "วิชาเอกเลือกระดับ 400 (เน้นโครงงาน 4)",
+              "name_EN": "Major Elective 400 (Project-based 4)",
+              "credits": "3(3-0-6)",
+              "type": "project_elective"
+            },
+            {
+              "id": "CS_ELEC_400_P3",
+              "name_TH": "วิชาเอกเลือกระดับ 400 (เน้นโครงงาน 5)",
+              "name_EN": "Major Elective 400 (Project-based 5)",
+              "credits": "3(3-0-6)",
+              "type": "project_elective"
+            },
+            {
+              "id": "CS_ELEC_400_1",
+              "name_TH": "วิชาเอกเลือกระดับ 400 (ทั่วไป 1)",
+              "name_EN": "Major Elective Level 400 (1)",
+              "credits": "3(3-0-6)",
+              "type": "elective"
+            },
+            {
+              "id": "CS_ELEC_EXTRA_P",
+              "name_TH": "วิชาเอกเลือกระดับ 300/400",
+              "name_EN": "Major Elective Level 300/400",
+              "credits": "3(3-0-6)",
+              "type": "elective",
+              "note": "Adjusted to fulfill 132 credits"
+            }
+          ]
+        },
+        {
+          "semester": "Y4S2",
+          "year": 4,
+          "term": 2,
+          "total_credits": 13,
+          "courses": [
+            {
+              "id": "204497",
+              "name_TH": "สัมมนาทางวิทยาการคอมพิวเตอร์",
+              "name_EN": "Seminar in Computer Science",
+              "credits": "1(1-0-2)",
+              "type": "compulsory"
+            },
+            {
+              "id": "CS_ELEC_400_2",
+              "name_TH": "วิชาเอกเลือกระดับ 400 (ทั่วไป 2)",
+              "name_EN": "Major Elective Level 400 (2)",
+              "credits": "3(3-0-6)",
+              "type": "elective"
+            },
+            {
+              "id": "CS_ELEC_400_3",
+              "name_TH": "วิชาเอกเลือกระดับ 400 (ทั่วไป 3)",
+              "name_EN": "Major Elective Level 400 (3)",
+              "credits": "3(3-0-6)",
+              "type": "elective"
+            },
+            {
+              "id": "ELEC_OR_MINOR_5",
+              "name_TH": "วิชาเอกเลือก หรือ วิชาโท (5)",
+              "name_EN": "Major Elective or Minor (5)",
+              "credits": "3(3-0-6)",
+              "type": "elective"
+            },
+            {
+              "id": "CS_ELEC_EXTRA_P2",
+              "name_TH": "วิชาเอกเลือกระดับ 300/400",
+              "name_EN": "Major Elective Level 300/400",
+              "credits": "3(3-0-6)",
+              "type": "elective",
+              "note": "Adjusted to fulfill 132 credits"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "courses": {
+    "001101": {
+      "id": "001101",
+      "name_TH": "ภาษาอังกฤษพื้นฐาน 1",
+      "name_EN": "Fundamental English 1",
+      "credits": "3(3-0-6)",
+      "desc_TH": "การสื่อสารภาษาอังกฤษเพื่อการปฏิสัมพันธ์ในชีวิตประจำวันตามมาตรฐาน CEFR ระดับ B1+ ในบริบททางสังคมและวัฒนธรรมที่หลากหลายเพื่อการเรียนรู้ตลอดชีวิต",
+      "desc_EN": "Communication in English for everyday interactions based on CEFR B1+ in various social and cultural contexts for life-long learning",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "ไม่มี",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "001102": {
+      "id": "001102",
+      "name_TH": "ภาษาอังกฤษพื้นฐาน 2",
+      "name_EN": "Fundamental English 2",
+      "credits": "3(3-0-6)",
+      "desc_TH": "การสื่อสารภาษาอังกฤษเพื่อการปฏิสัมพันธ์ในชีวิตประจำวันตามมาตรฐาน CEFR ระดับ B1+ ในบริบททางสังคมและวัฒนธรรมที่หลากหลายเพื่อการเรียนรู้ตลอดชีวิต",
+      "desc_EN": "Communication in English for everyday interactions based on CEFR B1+ in various social and cultural contexts for life-long learning",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "ไม่มี",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "001201": {
+      "id": "001201",
+      "name_TH": "การอ่านอย่างมีวิจารณญาณและการเขียนอย่างมีประสิทธิภาพ",
+      "name_EN": "Critical Reading and Effective Writing",
+      "credits": "3(3-0-6)",
+      "desc_TH": "การอ่านภาษาอังกฤษอย่างมีวิจารณญาณจากแหล่งข้อมูลและสื่อต่าง ๆ และการเขียนภาษาอังกฤษระดับย่อหน้าอย่างมีประสิทธิภาพ",
+      "desc_EN": "English language skills for critical reading from different sources and media and effective paragraph writing",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "001101",
+        "001102"
+      ],
+      "official_prereq": "001101 หรือ 001102 หรือ คะแนน e-Pro ตั้งแต่ B1 ขึ้นไป; หรือตามความเห็นชอบของภาควิชา",
+      "terms": {
+        "t1": true,
+        "t2": true
+      }
+    },
+    "001225": {
+      "id": "001225",
+      "name_TH": "ภาษาอังกฤษสำหรับวิทยาศาสตร์และเทคโนโลยี",
+      "name_EN": "English for Science and Technology",
+      "credits": "3(3-0-6)",
+      "desc_TH": "การสื่อสารโดยใช้ภาษาอังกฤษในชีวิตประจำวันในบริบทวิทยาศาสตร์และเทคโนโลยีและการประยุกต์ใช้ทักษะภาษาอังกฤษในการประกอบอาชีพที่เกี่ยวข้องกับวิทยาศาสตร์และเทคโนโลยี",
+      "desc_EN": "Communication in English in daily life in science and technology contexts and application of English language skills for careers in science and technology",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "001101",
+        "001102"
+      ],
+      "official_prereq": "001101 หรือ 001102 หรือ คะแนน e-Pro ตั้งแต่ B1 ขึ้นไป; หรือตามความเห็นชอบของภาควิชา",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "001233": {
+      "id": "001233",
+      "name_TH": "ภาษาอังกฤษสำหรับการสอบมาตรฐาน",
+      "name_EN": "English for Standardized Tests",
+      "credits": "3(3-0-6)",
+      "desc_TH": "ข้อสอบวัดมาตรฐานทางภาษาอังกฤษ การเตรียมความพร้อมภาษาอังกฤษสำหรับการสอบมาตรฐาน ในด้านคำศัพท์ ไวยากรณ์ การฟัง การพูด การอ่าน และการเขียน",
+      "desc_EN": "English standardized tests. English preparation for standardized tests in the areas of vocabulary, grammar, listening, speaking, reading, and writing.",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "คะแนน e-Pro ตั้งแต่ B1 ขึ้นไปหรือตามความเห็นชอบของภาควิชา",
+      "terms": {
+        "t1": true,
+        "t2": true
+      }
+    },
+    "001241": {
+      "id": "001241",
+      "name_TH": "การพูดภาษาอังกฤษเพื่อการสื่อสาร",
+      "name_EN": "Oral Communication in English",
+      "credits": "3(3-0-6)",
+      "desc_TH": "การสื่อสารภาษาอังกฤษในหัวข้อต่าง ๆ ทั้งที่เป็นรูปธรรมและนามธรรม ตามมาตรฐาน CEFR ระดับ B2",
+      "desc_EN": "English communication on various concrete and abstract topics based on CEFR B2.",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "คะแนน e-Pro ตั้งแต่ B1 ขึ้นไปหรือตามความเห็นชอบของภาควิชา",
+      "terms": {
+        "t1": true,
+        "t2": true
+      }
+    },
+    "001242": {
+      "id": "001242",
+      "name_TH": "เปิดโลกทักษะการอ่านและการเขียน",
+      "name_EN": "Exploring Reading and Writing Skills",
+      "credits": "3(3-0-6)",
+      "desc_TH": "ฝึกการอ่านโดยเน้นการอ่านอย่างใช้วิจารณญาณ เน้นความเข้าใจคำศัพท์ พัฒนาทักษะการอ่านเพื่อความเข้าใจบทความหลายประเภททั้งเชิงวิชาการและไม่ใช่เชิงวิชาการ สร้างทักษะการเขียน ฝึกกระบวนการการเขียนย่อหน้า เพื่อแสดงความคิดเห็นและความรู้สึกอย่างมีเหตุผลและชัดเจน ตลอดจนการใช้ไวยากรณ์ภาษาอังกฤษอย่างถูกต้อง",
+      "desc_EN": "Practice reading skills with an emphasis on critical reading, focusing on enhancing vocabulary comprehension. Develop reading skills to comprehend various types of texts, including both academic and non-academic articles; build writing skills to produce coherent paragraphs, and practice the process of writing to express opinions and feelings clearly and logically as well as using English grammar correctly.",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "คะแนน e-Pro ตั้งแต่ B1 ขึ้นไปหรือตามความเห็นชอบของภาควิชา",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "001243": {
+      "id": "001243",
+      "name_TH": "พื้นฐานการเขียนเรียงความอย่างมีประสิทธิภาพ",
+      "name_EN": "Basics of Effective Essay Writing",
+      "credits": "3(3-0-6)",
+      "desc_TH": "ทักษะการเขียนเรียงความประเภทปัญหาและแนวทางการแก้ไข และเรียงความประเภทโต้แย้ง",
+      "desc_EN": "Essay writing skills of problem-solving essays and argumentative essays",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "001242",
+        "001311"
+      ],
+      "official_prereq": "001242 หรือ 001311",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "001249": {
+      "id": "001249",
+      "name_TH": "ภาษาอังกฤษเพื่อการเดินทางท่องเที่ยว",
+      "name_EN": "English for Travelling",
+      "credits": "3(3-0-6)",
+      "desc_TH": "ทักษะการสื่อสารภาษาอังกฤษในบริบทการเดินทางท่องเที่ยว การอภิปรายประเด็นและแนวโน้มการเดินทางท่องเที่ยวที่อยู่ในสมัยนิยม การผลิตเนื้อหาที่เกี่ยวข้องกับการเดินทางท่องเที่ยวในสื่อสมัยใหม่ กลุ่มวิชาด้านทักษะความเข้าใจและการใช้เทคโนโลยีดิจิทัล",
+      "desc_EN": "English communication skills in the context of travel, discussion of travel-related issues and trends, production of travel contents in the new media.",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "คะแนน e-Pro ตั้งแต่ B1 ขึ้นไปหรือตามความเห็นชอบของภาควิชา",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "140104": {
+      "id": "140104",
+      "name_TH": "การเป็นพลเมือง",
+      "name_EN": "Citizenship",
+      "credits": "3(3-0-6)",
+      "desc_TH": "ความหมาย นิยาม และแนวคิดเกี่ยวกับการเป็นพลเมือง การสร้างความตระหนักถึงปัญหารอบตัว ทั้งในระดับท้องถิ่น ระดับประเทศ และระดับนานาชาติ การเป็นพลเมืองกับการเรียนรู้และการดำรงตนในพหุวัฒนธรรมและความหลากหลายทางสังคม การสร้างทัศนคติเชิงบวกเพื่อการแก้ไขปัญหาความขัดแย้งด้วยสันติวิธี การแสดงออกทางการเมืองในศตวรรษที่ 21 กลุ่มวิชาด้านทักษะการคิดสร้างสรรค์และนวัตกรรม",
+      "desc_EN": "Meanings, definitions, and concepts involving citizenship. Creating awareness in surrounding problems at the local level, national level, and international level. Citizenship and learning, and existence in multicultural society and social diversity. Cultivation of positive attitude for peaceful conflict resolution. Political expression in the 21st century.",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "ไม่มี",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "201111": {
+      "id": "201111",
+      "name_TH": "โลกแห่งวิทยาศาสตร์",
+      "name_EN": "The World of Science",
+      "credits": "3(3-0-6)",
+      "desc_TH": "บทนำ ความหมายของวิทยาศาสตร์ เทคโนโลยี และนวัตกรรม ประวัติของวิทยาศาสตร์ เทคโนโลยี และนวัตกรรม กระบวนการทางวิทยาศาสตร์ กิจกรรมกลุ่มเกี่ยวกับวิทยาศาสตร์และเทคโนโลยีในชีวิตประจำวัน วิทยาศาสตร์และเทคโนโลยีกับการพัฒนาประเทศ วิทยาศาสตร์และเทคโนโลยีกับเศรษฐกิจ วิทยาศาสตร์และเทคโนโลยีกับสังคม วิทยาศาสตร์และเทคโนโลยีกับสิ่งแวดล้อม วิทยาศาสตร์และเทคโนโลยีกับวัฒนธรรม วิทยาศาสตร์และเทคโนโลยีกับชุมชนท้องถิ่น วิทยาศาสตร์และเทคโนโลยีกับการเปลี่ยนแปลงสภาพภูมิอากาศ วิทยาศาสตร์และเทคโนโลยีกับการพัฒนาที่ยั่งยืน หรือหัวข้ออื่นๆ ตามความสนใจของนักศึกษา และการนำเสนอในห้องเรียน",
+      "desc_EN": "Introduction, Meaning and history of science, technology and innovation, Scientific method, Group activities about science and technology in daily life, science and technology and country development, economy, society, environment, culture, local communities, climate change, sustainable development, or other topics depending on students’ interests, and class presentations.",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "ไม่มี",
+      "terms": {
+        "t1": true,
+        "t2": true
+      }
+    },
+    "201114": {
+      "id": "201114",
+      "name_TH": "วิทยาศาสตร์สิ่งแวดล้อมในโลกปัจจุบัน",
+      "name_EN": "Environmental Science in Today’s World",
+      "credits": "3(3-0-6)",
+      "desc_TH": "สิ่งแวดล้อมและผลกระทบจากกิจกรรมของมนุษย์ ความตระหนักเรื่องสิ่งแวดล้อมในเวทีนานาชาติ ความสำคัญของความหลากหลายทางชีวภาพ; การอนุรักษ์เพื่ออนาคต การใช้ทรัพยากร การเติบโตของประชากรและมลพิษ การแตกตัวของโอโซน ภาวะโลกร้อนและการเปลี่ยนแปลงสภาพภูมิอากาศ วิกฤติพลังงาน การพัฒนาอย่างยั่งยืนเพื่อรักษาสมดุลในการบริโภคทรัพยากรธรรมชาติและการทดแทน สถานการณ์สิ่งแวดล้อมปัจจุบัน",
+      "desc_EN": "Environment and impacts from anthropogenic activities, Environmental concerns in international venues, Importance of biodiversity; conservation for the future, Resource use, Population growth and pollution, Ozone depletion, Global warming and climate change, Energy crisis, Sustainable development (balancing of natural resource consumption and replacement), and Current environmental issues.",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "ไม่มี",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "201116": {
+      "id": "201116",
+      "name_TH": "วิทยาศาสตร์และภาวะโลกร้อน",
+      "name_EN": "Science and Global Warming",
+      "credits": "3(3-0-6)",
+      "desc_TH": "แก๊สเรือนกระจกและปรากฏการณ์เรือนกระจก ภาวะโลกร้อนและผลกระทบ นโยบาย นวัตกรรม และการปฏิบัติเพื่อรับมือภาวะโลกร้อนและภัยธรรมชาติ บรรยากาศ พลังงานและการถ่ายโอนพลังงานความร้อนในอากาศและมหาสมุทร สภาพอากาศและการคาดการณ์ภูมิอากาศ การปรับตัวและการลดผลกระทบจากการเปลี่ยนแปลงสภาพภูมิอากาศ",
+      "desc_EN": "Greenhouse gases and greenhouse effect, global warming and its impact, policy, innovation and conduct for coping global warming and natural disaster, atmosphere, energy and heat transfer in air and ocean, weather and climate projection, climate change adaptation and mitigation.",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "ไม่มี",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "201190": {
+      "id": "201190",
+      "name_TH": "การคิดอย่างมีวิจารณญาณ การแก้ปัญหา",
+      "name_EN": "Critical Thinking, Problem Solving and Science Communication",
+      "credits": "3(3-0-6)",
+      "desc_TH": "และการสื่อสารทางวิทยาศาสตร์ การคิดอย่างมีวิจารณญาณ การแก้ปัญหาทางวิทยาศาสตร์และเทคโนโลยี การสื่อสารทางวิทยาศาสตร์และเทคโนโลยี",
+      "desc_EN": "Critical thinking, problem solving in science and technology, communication in science and technology.",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "ไม่มี",
+      "terms": {
+        "t1": true,
+        "t2": true
+      }
+    },
+    "202101": {
+      "id": "202101",
+      "name_TH": "ชีววิทยาพื้นฐาน 1",
+      "name_EN": "Basic Biology 1",
+      "credits": "3(3-0-6)",
+      "desc_TH": "บทนำ ระเบียบวิธีการทางวิทยาศาสตร์ ลักษณะเฉพาะของสิ่งมีชีวิต การจัดระบบสิ่งมีชีวิต สารเคมีของสิ่งมีชีวิต เซลล์และเมแทบอลิซึม พันธุศาสตร์และอณูพันธุศาสตร์ กลไกของวิวัฒนาการ ความหลากหลายของสิ่งมีชีวิต โครงสร้างและหน้าที่ของพืช โครงสร้างและหน้าที่ของสัตว์ และนิเวศวิทยาและพฤติกรรม",
+      "desc_EN": "Introduction, scientific methods, characteristics of life, biological level of organization, chemical of life, cell and metabolism, genetics and molecular genetics, mechanism of evolution, diversity of life, structure and function of plant, structure and function of animal and ecology and behavior.",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "ไม่มี",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204100": {
+      "id": "204100",
+      "name_TH": "เรื่องน่ารู้ทางปัญญาประดิษฐ์และดิจิทัล",
+      "name_EN": "Artificial Intelligence and Digital Essentials",
+      "credits": "3(3-0-6)",
+      "desc_TH": "คอมพิวเตอร์กับการใช้งานในชีวิตประจำวัน เครือข่ายคอมพิวเตอร์และอินเทอร์เน็ต องค์ประกอบสำคัญของการออนไลน์ การทำงานร่วมกันแบบออนไลน์ ซอฟต์แวร์ช่วยเพิ่มประสิทธิผลในสำนักงานสำหรับชีวิตสมัยใหม่ ความปลอดภัยทางเทคโนโลยีสารสนเทศ การรู้สารสนเทศ ความรู้พื้นฐานปัญญาประดิษฐ์แบบรู้สร้าง เครื่องมือปัญญาประดิษฐ์",
+      "desc_EN": "Computer in everyday life, computer network and internet, online essentials, online collaboration, office productivity software for modern life, information technology security, information literacy, basic knowledge of generative artificial intelligence, and artificial intelligence tools.",
+      "classification": "other",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "None",
+      "terms": {
+        "t1": true,
+        "t2": true
+      }
+    },
+    "204101": {
+      "id": "204101",
+      "name_TH": "การเขียนโปรแกรมสำหรับผู้เริ่มต้น",
+      "name_EN": "Programming for Beginners",
+      "credits": "3(2-2-5)",
+      "desc_TH": "หลักการแก้ปัญหาด้วยคอมพิวเตอร์ ผังงาน ระบบจำนวน การเขียนโปรแกรมคอมพิวเตอร์ ฟังก์ชัน ชนิดข้อมูลแบบลำดับ",
+      "desc_EN": "Principles of problem solving with computer, flowchart, number system and data representation, computer programming, function, sequential data types.",
+      "classification": "other",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "None",
+      "terms": {
+        "t1": true,
+        "t2": true
+      }
+    },
+    "204102": {
+      "id": "204102",
+      "name_TH": "การวิเคราะห์ข้อมูลอัจฉริยะ: การสำรวจด้านเทคนิคและการประยุกต์",
+      "name_EN": "Intelligent Data Analysis: Survey of Techniques and Applications",
+      "credits": "3(2-2-5)",
+      "desc_TH": "บทนำสู่การวิเคราะห์ข้อมูลอัจฉริยะ: จากการจับสู่การแชร์ การวิเคราะห์และการทำให้เห็นภาพข้อมูลแบบตาราง การสำรวจและการวิเคราะห์ข้อความ การประมวลผลกระแสข้อมูลสำหรับการประยุกต์ไอโอที การตรวจจับและรู้จำภาพ การจำลองด้วยความเป็นจริงเสมือนและความเป็นจริงเสริม การเรียนรู้แบบใช้ปัญหาเป็นฐานในงานประยุกต์ด้านการวิเคราะห์ข้อมูลอัจฉริยะ",
+      "desc_EN": "Introduction to intelligent data analysis: from capture to sharing, tabular data analysis and visualization, text exploration and analysis, data stream processing for IoT applications, image detection and recognition, simulation with virtual reality and augmented reality, and problem-based learning in intelligent data analysis applications.",
+      "classification": "other",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "None",
+      "terms": {
+        "t1": true,
+        "t2": true
+      }
+    },
+    "204111": {
+      "id": "204111",
+      "name_TH": "การเขียนโปรแกรมเบื้องต้น",
+      "name_EN": "Fundamentals of Programming",
+      "credits": "3(2-2-5)",
+      "desc_TH": "วิทยาการคอมพิวเตอร์ในชีวิตประจำวัน การแปลภาษา ระบบเลขฐานสอง อัลกอริทึมและการออกแบบ แนวคิดการเขียนโปรแกรมพื้นฐาน ระบบชนิดข้อมูลพื้นฐาน โครงสร้างข้อมูลพื้นฐาน โครงสร้างข้อมูลพื้นฐานและอัลกอริทึม และวิธีการพัฒนาโปรแกรม",
+      "desc_EN": "Computer science in daily life, language translation, binary system, algorithm and designs, fundamental programming concepts, basic type system, fundamental data structure, fundamental data structure and algorithms, and development methods.",
+      "classification": "core",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "None",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "204115": {
+      "id": "204115",
+      "name_TH": "หลักการเขียนโปรแกรมเชิงฟังก์ชัน",
+      "name_EN": "Principles of Functional Programming",
+      "credits": "3(2-2-5)",
+      "desc_TH": "การเขียนโปรแกรมเชิงฟังก์ชันเบื้องต้น การวนซ้ำและการนิรนัย โครงสร้างข้อมูลและประสิทธิภาพ พหุสัณฐานและฟังก์ชันขั้นสูง รูปแบบการเขียนโปรแกรมเชิงฟังก์ชันและการออกแบบโปรแกรม โครงสร้างข้อมูลขั้นสูงและการโปรแกรมแบบ Lazy มอแนดและการจัดการผลกระทบของโปรแกรม การทดสอบและ Regular Expressions การเขียนโปรแกรมเชิงบังคับในภาษาเชิงฟังก์ชัน ระบบชนิดข้อมูลและ Typeclasses",
+      "desc_EN": "Introduction to functional programming, recursion and induction, data structures and performance, polymorphism and higher-order functions, functional patterns and program design, advanced data structures and Lazy programming, monads and functional effects, testing and Regular Expressions, imperative programming in functional languages, type systems and Typeclasses.",
+      "classification": "core",
+      "is_project_based": false,
+      "prerequisites": [
+        "204111"
+      ],
+      "official_prereq": "204111",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204123": {
+      "id": "204123",
+      "name_TH": "วิทยาการข้อมูลเบื้องต้น",
+      "name_EN": "Introduction to Data Science",
+      "credits": "3(2-2-5)",
+      "desc_TH": "ภาพรวมของวิทยาการข้อมูล การรวบรวมและการได้มาซึ่งข้อมูล การวิเคราะห์เชิงพรรณนา การวิเคราะห์เชิงพยากรณ์ การวิเคราะห์เชิงวางเงื่อนไข การมองภาพข้อมูล ประเด็นท้าทายในวิทยาการข้อมูล",
+      "desc_EN": "Overview of data science, data collection and acquisition, descriptive analysis, predictive analysis, prescriptive analysis, data visualization, challenging issues in data science.",
+      "classification": "other",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "None",
+      "terms": {
+        "t1": true,
+        "t2": true
+      }
+    },
+    "204171": {
+      "id": "204171",
+      "name_TH": "ปัญญาประดิษฐ์ท่ามกลางพวกเรา",
+      "name_EN": "Artificial Intelligence Among Us",
+      "credits": "3(3-0-6)",
+      "desc_TH": "ปัญญาประดิษฐ์เบื้องต้น โครงสร้างการทำงานของปัญญาประดิษฐ์ ปัญญาประดิษฐ์ในชีวิตประจำวัน ปัญญาประดิษฐ์ในบ้านอัจฉริยะ ปัญญาประดิษฐ์ในเมืองอัจฉริยะ ปัญญาประดิษฐ์ในการบันเทิงและมัลติมีเดีย ปัญญาประดิษฐ์ในภาษาศาสตร์ ปัญญาประดิษฐ์ในการเงินและชีวิตการทำงาน ปัญญาประดิษฐ์ในบริการด้านการแพทย์ ปัญญาประดิษฐ์ในการเกษตร แนวโน้ม ผลกระทบ และประเด็นทางจริยธรรมของปัญญาประดิษฐ์",
+      "desc_EN": "Introduction to artificial intelligence, working framework of artificial intelligence, artificial intelligence in daily life, artificial intelligence in smart home, artificial intelligence in smart city, artificial intelligence in entertainment and multimedia, artificial intelligence in linguistics, artificial intelligence in finance and working life, artificial intelligence in medical service, artificial intelligence in agriculture, trends, influence, and ethical issues of artificial intelligence",
+      "classification": "other",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "None",
+      "terms": {
+        "t1": true,
+        "t2": true
+      }
+    },
+    "204202": {
+      "id": "204202",
+      "name_TH": "เทคโนโลยีสารสนเทศและการพัฒนาเว็บ",
+      "name_EN": "Information Technology and Web Development",
+      "credits": "3(2-2-5)",
+      "desc_TH": "แนวคิดเกี่ยวกับการพัฒนาเทคโนโลยีสารสนเทศในปัจจุบัน การจัดเก็บข้อมูล การวิเคราะห์ข้อมูลและการแสดงมโนภาพข้อมูล หลักการออกแบบเว็บ หลักการเขียนโปรแกรม การประยุกต์ใช้เทคโนโลยีเว็บ การนำเสนอโครงงาน",
+      "desc_EN": "Today’s concept in development of information technology, data storage, data analysis and data visualization, principle of web design, principle of programming, application of web technology, and project presentation",
+      "classification": "compulsory",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "None",
+      "terms": {
+        "t1": false,
+        "t2": false
+      }
+    },
+    "204212": {
+      "id": "204212",
+      "name_TH": "การพัฒนาเว็บแอปพลิเคชันแบบฟูลสแต็ก",
+      "name_EN": "Full-stack Web Application Development",
+      "credits": "3(2-2-5)",
+      "desc_TH": "สถาปัตยกรรมเว็บแอปพลิเคชัน เครื่องมือในการพัฒนาเว็บ เฟรมเวิร์กส่วนหน้าในการจัดการประสานกับผู้ใช้งานเว็บ การพัฒนาเว็บส่วนหน้า การพัฒนาเว็บส่วนหลัง ส่วนต่อประสานโปรแกรมประยุกต์ (เอพีไอ) การพัฒนาโมบายแอปพลิเคชันแบบมัลติแพลตฟอร์ม",
+      "desc_EN": "Web application architecture, web development tools, front-end web user interface framework, front-end web development, back-end web development, Application Program Interface (API) and multiplatform mobile application development.",
+      "classification": "compulsory",
+      "is_project_based": false,
+      "prerequisites": [
+        "204115"
+      ],
+      "official_prereq": "204114 or 204115",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204215": {
+      "id": "204215",
+      "name_TH": "การเขียนโปรแกรมภาษาปาสคาล",
+      "name_EN": "Pascal Programming",
+      "credits": "3(2-2-5)",
+      "desc_TH": "บทนำเกี่ยวกับการเขียนโปรแกรมด้วยภาษาปาสคาล ข้อมูล การกระทำต่อข้อมูลและคำสั่ง การรับและแสดงผลข้อมูล โครงสร้างควบคุม โปรแกรมย่อย โครงสร้างข้อมูล แฟ้มข้อมูล โครงสร้างข้อมูลแบบพลวัต",
+      "desc_EN": "Introduction to Pascal programming, data, operations and statements, input and output, control structures, subprograms, data structures, files, dynamic data structures.",
+      "classification": "compulsory",
+      "is_project_based": false,
+      "prerequisites": [
+        "204101",
+        "204111",
+        "229223"
+      ],
+      "official_prereq": "204101 or 204111 or 229223",
+      "terms": {
+        "t1": false,
+        "t2": false
+      }
+    },
+    "204217": {
+      "id": "204217",
+      "name_TH": "ภาษาโปรแกรมคอมพิวเตอร์",
+      "name_EN": "Computer Programming Languages",
+      "credits": "3(2-2-5)",
+      "desc_TH": "บทนำเกี่ยวกับภาษาโปรแกรม องค์ประกอบและคำสั่งพื้นฐานของภาษาโปรแกรม ฟังก์ชัน  ตรรกะแบบมีเงื่อนไขและแบบบูลีน การวนซ้ำ พื้นฐานการนำเข้าและส่งออกข้อมูลจากไฟล์ สตริงและตัวแปรชุด การประยุกต์",
+      "desc_EN": "Introduction to structured programming, basic components and statements of a programming language, function, conditionals and Boolean logic, iterations, basic file I/O, string and array, applications.",
+      "classification": "compulsory",
+      "is_project_based": false,
+      "prerequisites": [
+        "204101",
+        "204111",
+        "229223"
+      ],
+      "official_prereq": "204101 or 204111 or 229223",
+      "terms": {
+        "t1": true,
+        "t2": true
+      }
+    },
+    "204219": {
+      "id": "204219",
+      "name_TH": "การเขียนโปรแกรมภาษาจาวา",
+      "name_EN": "Java Programming",
+      "credits": "3(2-2-5)",
+      "desc_TH": "แนะนำการเขียนโปรแกรมเชิงวัตถุ เครื่องมือภาษาโปรแกรม มูลฐานในการเขียนโปรแกรม อาเรย์และสายอักขระ วัตถุและชั้น การรับทอดและพหุลักษณ์ ความสัมพันธ์ระหว่างชั้น การใช้งานแฟ้มข้อมูล และการประยุกต์",
+      "desc_EN": "Introduction to object-oriented programming, programming language tools, fundamentals of programming, array and strings, objects and classes, inheritance and polymorphism, class relationship, file manipulation and applications",
+      "classification": "compulsory",
+      "is_project_based": false,
+      "prerequisites": [
+        "204101",
+        "204111",
+        "229223"
+      ],
+      "official_prereq": "204101 or 204111 or 229223",
+      "terms": {
+        "t1": false,
+        "t2": false
+      }
+    },
+    "204231": {
+      "id": "204231",
+      "name_TH": "การจัดระบบและสถาปัตยกรรมคอมพิวเตอร์",
+      "name_EN": "Computer Organization and Architecture",
+      "credits": "3(2-2-5)",
+      "desc_TH": "วงจรตรรกะดิจิทัล องค์ประกอบดิจิทัล การแทนข้อมูล การถ่ายโอนเรจิสเตอร์และการดำเนินการไมโคร การจัดระบบและออกแบบคอมพิวเตอร์เบื้องต้น การควบคุมไมโครโปรแกรม หน่วยประมวลผลกลาง การคำนวณคอมพิวเตอร์ การจัดระบบรับเข้าส่งออก การจัดการหน่วยความจำ และการโปรแกรมระบบด้วยภาษาแอสเซมบลี",
+      "desc_EN": "Digital logic circuits, digital components, data representation, register transfer and microoperations, basic computer organization and design, microprogrammed control, central processing unit, computer arithmetic, input-output organization, memory organization, and system programming with Assembly language.",
+      "classification": "compulsory",
+      "is_project_based": false,
+      "prerequisites": [
+        "204115"
+      ],
+      "official_prereq": "204114 or 204115",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "204232": {
+      "id": "204232",
+      "name_TH": "เครือข่ายคอมพิวเตอร์และเกณฑ์วิธี",
+      "name_EN": "Computer Networks and Protocols",
+      "credits": "3(3-0-6)",
+      "desc_TH": "เครือข่ายคอมพิวเตอร์เบื้องต้น เกณฑ์วิธีชั้นโปรแกรมประยุกต์ เกณฑ์วิธีชั้นสื่อสารนำส่งข้อมูล เกณฑ์วิธีชั้นเครือข่าย เกณฑ์วิธีชั้นสื่อสารเชื่อมต่อ เครือข่ายเคลื่อนที่และไร้สาย และความปลอดภัยของเครือข่ายและการควบคุมการเข้าถึง",
+      "desc_EN": "Basic computer networks, application layer protocols, transport layer protocols, network layer protocols, link layer protocols, wireless and mobile network and network security and access control.",
+      "classification": "compulsory",
+      "is_project_based": false,
+      "prerequisites": [
+        "204115"
+      ],
+      "official_prereq": "204114 or 204115",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204255": {
+      "id": "204255",
+      "name_TH": "การเขียนโปรแกรมเชิงวัตถุและโครงสร้างข้อมูล",
+      "name_EN": "Object-Oriented Programming and Data Structures",
+      "credits": "4(3-2-7)",
+      "desc_TH": "หลักการเขียนโปรแกรมเชิงวัตถุ คลาสและวัตถุ: ฟิลด์ เมท็อด และตัวสร้าง ซับคลาส  การสืบทอด การเรียกใช้ เมท็อดแบบไดนามิก: คำจำกัดความของการเรียกเมท็อด การจัดการข้อยกเว้น การนำเข้า/ส่งออกข้อมูล ถุงข้อมูล รูปแบบทั่วไป แผ่นแบบ แนวปฏิบัติของการเขียนโปรแกรมเชิงวัตถุเพื่อการปกปิดข้อมูล คุณสมบัติแบบไดนามิกและสแตติก คอมโพซิชันและการสืบทอด การใช้ชนิดข้อมูลย่อย การวิเคราะห์อัลกอริทึม โครงสร้างข้อมูลเชิงนามธรรม (ADT) และการดำเนินการบน ADT รายการโยง กองซ้อน คิวและคิวสองด้าน แฮช การส่ง และเซต กราฟ ต้นไม้ อัลกอริทึมการค้นหาและการเรียงลำดับ",
+      "desc_EN": "Principle of object-oriented programming, class and objects: fields, methods, and constructors, subclass, inheritance, dynamic dispatch: definition of method-call, exception handling, input/output, bags, generics, templates, object-oriented idioms for encapsulation, dynamic and static properties, composition and inheritance, subtyping, analysis of algorithms, Abstract Data Type (ADT) and operations on ADT, linked list, stacks, queues and deques, hash, maps and sets, graphs, trees, and searching and sorting algorithms",
+      "classification": "core",
+      "is_project_based": false,
+      "prerequisites": [
+        "204111",
+        "206183"
+      ],
+      "official_prereq": "204111 and 206183",
+      "terms": {
+        "t1": false,
+        "t2": false
+      }
+    },
+    "204271": {
+      "id": "204271",
+      "name_TH": "ปัญญาประดิษฐ์เบื้องต้น",
+      "name_EN": "Introduction to Artificial Intelligence",
+      "credits": "3(2-2-5)",
+      "desc_TH": "บทนำสู่ปัญญาประดิษฐ์ การค้นหาและการวางแผน การแทนความรู้และการใช้เหตุผล การประมวลผลภาษาธรรมชาติ การประมวลผลภาพ การเรียนรู้เครื่อง และข้อคำนึงทางจริยธรรมและกฎหมาย",
+      "desc_EN": "Introduction to Artificial Intelligence (AI), search and planning, knowledge representation and reasoning, Natural Language Processing (NLP), image processing, Machine Learning (ML), ethical and legal considerations.",
+      "classification": "compulsory",
+      "is_project_based": false,
+      "prerequisites": [
+        "204111",
+        "206183",
+        "208269"
+      ],
+      "official_prereq": "204111 and 206183 and 208269",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204306": {
+      "id": "204306",
+      "name_TH": "จริยธรรมสำหรับผู้ประกอบวิชาชีพคอมพิวเตอร์",
+      "name_EN": "Ethics for Computer Professionals",
+      "credits": "1(1-0-2)",
+      "desc_TH": "แนวคิดจริยธรรมคอมพิวเตอร์ จริยธรรมวิชาชีพคอมพิวเตอร์และสารสนเทศ สิทธิทางทรัพย์สินและลิขสิทธิ์ในยุคสารสนเทศ ความเป็นส่วนตัวและนโยบายสาธารณะ อาชญากรรมผ่านสื่อทางคอมพิวเตอร์ และกฎหมายคอมพิวเตอร์และสารสนเทศ",
+      "desc_EN": "Concepts of computer ethics, computer and information professional ethics, property rights and copyright in the information age, privacy and public policy, computer-mediated crime and computer and information laws.",
+      "classification": "compulsory",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "third year standing",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204311": {
+      "id": "204311",
+      "name_TH": "เฟรมเวิร์คการพัฒนาโมบายแอปพลิเคชัน",
+      "name_EN": "Mobile Application Development Frameworks",
+      "credits": "3(2-2-5)",
+      "desc_TH": "ลักษณะเฉพาะของโมบายแอปพลิเคชัน วิวัฒนาการของโมบายแอปพลิเคชันเฟรมเวิร์ค เครื่องมือสำหรับการพัฒนาโมบายแอปพลิเคชัน โมบายแอปพลิชันเฟรมเวิร์คและลำดับการควบคุม การวิเคราะห์ความต้องการโมบายแอปพลิเคชัน การสร้างโมบายแอปพลิเคชันโดยใช้เฟรมเวิร์ค วิธีการทดสอบโมบายแอปพลิเคชัน การนำไปใช้และการบำรุงรักษา",
+      "desc_EN": "Characteristics of mobile applications, evolution of mobile application frameworks, mobile application development tools, mobile application frameworks and control flow, analyzing mobile application requirements, creating mobile applications using frameworks, testing methodologies for mobile applications, deployment and maintenance",
+      "classification": "project-elective",
+      "is_project_based": true,
+      "prerequisites": [
+        "204115",
+        "204219"
+      ],
+      "official_prereq": "204114 or 204115 or 204219",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204312": {
+      "id": "204312",
+      "name_TH": "การออกแบบการจำลองและประสบการณ์เสมือนจริง",
+      "name_EN": "Simulation and Experience Reality Design",
+      "credits": "3(2-2-5)",
+      "desc_TH": "แนวคิดพื้นฐานของการจำลองและประสบการณ์เสมือนจริง แนะนำระบบโต้ตอบจำลองสามมิติ การสร้างต้นแบบโลกของความเป็นจริงเสมือน การสร้างต้นแบบวัตถุแบบความเป็นจริงเสริม กรณีศึกษาและการสาธิต อนาคตของการประยุกต์การจำลองและประสบการณ์เสมือนจริง",
+      "desc_EN": "Basic concept in simulation and experience reality design, introduction to 3D simulation interactive system, prototyping virtual reality (VR) worlds, prototyping augmented reality (AR) object, case study and demonstration, the future of simulation and experience reality application",
+      "classification": "project-elective",
+      "is_project_based": true,
+      "prerequisites": [
+        "204115",
+        "204215",
+        "204217",
+        "204219"
+      ],
+      "official_prereq": "204114 or 204115 or 204215 or 204216 or 204217 or 204219",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204315": {
+      "id": "204315",
+      "name_TH": "การจัดระเบียบของภาษาโปรแกรม",
+      "name_EN": "Organization of Programming Languages",
+      "credits": "3(3-0-6)",
+      "desc_TH": "แนะนำภาษาโปรแกรม ตัวประมวลผลภาษาโปรแกรม การอธิบายเกี่ยวกับวากยสัมพันธ์และความหมาย ชนิดข้อมูลนามธรรม ชนิดข้อมูลพื้นฐาน ชนิดข้อมูลโครงสร้าง คุณลักษณะของภาษาโปรแกรม และกระบวนทัศน์ของภาษาโปรแกรม",
+      "desc_EN": "Introduction to programming languages, programming languages processor, describing syntax and semantics, abstract data types, elementary data types, structure data types, feature of programming language and programming language paradigms.",
+      "classification": "compulsory",
+      "is_project_based": false,
+      "prerequisites": [
+        "204212"
+      ],
+      "official_prereq": "204212",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204321": {
+      "id": "204321",
+      "name_TH": "ระบบฐานข้อมูล",
+      "name_EN": "Database Systems",
+      "credits": "3(2-2-5)",
+      "desc_TH": "บทนำสู่ระบบฐานข้อมูล แนวคิดระบบฐานข้อมูลและสถาปัตยกรรม แบบจำลองข้อมูลโดยใช้แบบจำลองข้อมูลเชิงสัมพันธ์ ฐานข้อมูลเชิงสัมพันธ์ ฐานข้อมูลเชิงวัตถุ ฐานข้อมูลโนเอสคิวแอล ฐานข้อมูลเอ็กซ์เอ็มแอล",
+      "desc_EN": "Introduction to database system, database system concepts and architectures, data modeling using relational data model, relational database, object-oriented database, NoSQL database, and XML database.",
+      "classification": "compulsory",
+      "is_project_based": false,
+      "prerequisites": [
+        "204255"
+      ],
+      "official_prereq": "204252 or 204255",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "204322": {
+      "id": "204322",
+      "name_TH": "ระบบฐานข้อมูลขั้นสูง",
+      "name_EN": "Advanced Database Systems",
+      "credits": "3(3-0-6)",
+      "desc_TH": "ภาพรวมของตัวแบบฐานข้อมูลและวัฏจักรของการพัฒนาฐานข้อมูล โครงสร้างหน่วยบันทึกข้อมูลและการจัดระเบียบไฟล์พื้นฐาน โครงสร้างดัชนีสำหรับไฟล์ การออกแบบฐานข้อมูลเชิงกายภาพและการปรับแต่ง พีชคณิตเชิงสัมพันธ์และแคลคูลัสเชิงสัมพันธ์ การประมวลผลคิวรีและการทำให้ดีที่สุด การประมวลผลรายการ ระบบฐานข้อมูลแบบกระจาย",
+      "desc_EN": "Overview of database models and database development life cycle, storage structures and basic file organization, indexing structures for files, physical database design and tuning, relational algebra and relational calculus, query processing and optimization, transaction processing, distributed database systems.",
+      "classification": "project-elective",
+      "is_project_based": true,
+      "prerequisites": [
+        "204321"
+      ],
+      "official_prereq": "204320 or 204321",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204325": {
+      "id": "204325",
+      "name_TH": "การวิเคราะห์ระบบงานและการออกแบบงาน",
+      "name_EN": "System Analysis and Design",
+      "credits": "3(3-0-6)",
+      "desc_TH": "แนวคิดของระบบและการจัดการโครงการ วัฏจักรการพัฒนาระบบและการวิเคราะห์เชิงโครงสร้าง การวิเคราะห์ความต้องการด้วยเทคนิคยูสเคส การสร้างแบบจำลองความต้องการ การออกแบบระบบ และการทำให้ระบบสำเร็จและการทำเอกสาร",
+      "desc_EN": "System concepts and project management, system development life cycle and structural analysis, requirement analysis with use case technique, requirement modeling, system design, and system implementation and documentation.",
+      "classification": "project-elective",
+      "is_project_based": true,
+      "prerequisites": [
+        "204212",
+        "204215",
+        "204217",
+        "204219"
+      ],
+      "official_prereq": "204203 or 204212 or 204215 or 204216 or 204217 or 204219",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "204333": {
+      "id": "204333",
+      "name_TH": "สถาปัตยกรรมเว็บแอปพลิเคชัน",
+      "name_EN": "Web Application Architecture",
+      "credits": "3(3-0-6)",
+      "desc_TH": "สถาปัตยกรรมเว็บ รูปแบบต่าง ๆ ของสถาปัตยกรรม ฐานข้อมูลและการเก็บข้อมูล ภาวะปรับขนาดได้ ระบบแบบพร้อมใช้งานสูง การกระจายงานและการเก็บแคช คิวข้อความ การประมวลผลข้อมูลแบบสตรีม",
+      "desc_EN": "Web architecture, architectural patterns, database and storage, scalability, high availability system, load balancing and caching, message queue, stream processing",
+      "classification": "project-elective",
+      "is_project_based": true,
+      "prerequisites": [
+        "204212",
+        "204215",
+        "204217",
+        "204219"
+      ],
+      "official_prereq": "204212 or 204215 or 204216 or 204217 or 204219",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204335": {
+      "id": "204335",
+      "name_TH": "ไมโครคอนโทรลเลอร์และอินเทอร์เน็ตของสรรพสิ่ง",
+      "name_EN": "Microcontroller and Internet of Things",
+      "credits": "3(2-2-5)",
+      "desc_TH": "แนะนำเกี่ยวกับไมโครคอนโทรลเลอร์เบื้องต้น การนำเข้าและส่งออกแบบดิจิทัล การนำเข้าและส่งออกแบบอะแนล็อก ทรานซิสเตอร์และมอเตอร์ขับเคลื่อน ส่วนต่อประสานของการติดต่อสื่อสาร การต่อประสานกับจอภาพ การต่อประสานระหว่างบอร์ดไมโครคอนโทรลเลอร์ เทคโนโลยีอินเทอร์เน็ตของสรรพสิ่ง",
+      "desc_EN": "Introduction to basic microcontroller, digital inputs and outputs, analog inputs and outputs, transistors and driving motors, communication interfaces, interfacing with displays, interfacing between microcontroller boards, Internet of things technology.",
+      "classification": "project-elective",
+      "is_project_based": true,
+      "prerequisites": [
+        "204115",
+        "204215",
+        "204217",
+        "204219",
+        "229223"
+      ],
+      "official_prereq": "204114 or 204115 or 204215 or 204216 or 204217 or 204219 or 229223",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "204341": {
+      "id": "204341",
+      "name_TH": "ระบบปฏิบัติการ",
+      "name_EN": "Operating Systems",
+      "credits": "3(3-0-6)",
+      "desc_TH": "แนะนำระบบปฏิบัติการ โครงสร้างของระบบปฏิบัติการ โพรเซส การจัดลำดับของหน่วยประมวลผลกลาง การเข้าจังหวะโพรเซส สภาวะติดตาย การจัดการหน่วยความจำ หน่วยความจำเสมือน ระบบปฏิบัติการแบบกระจาย และกรณีศึกษา",
+      "desc_EN": "Introduction to operating systems, operating systems structure, process, CPU scheduling, process synchronization, deadlock, memory management, virtual memory, distributed operating systems and case study.",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "204231"
+      ],
+      "official_prereq": "204231",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "204355": {
+      "id": "204355",
+      "name_TH": "การเขียนโปรแกรมเชิงแข่งขัน",
+      "name_EN": "Competitive Programming",
+      "credits": "3(2-2-5)",
+      "desc_TH": "บทนำเกี่ยวกับการเขียนโปรแกรมเชิงแข่งขัน โครงสร้างข้อมูลขั้นสูง ชุดปัญหาด้านคณิตศาสตร์ ชุดปัญหาด้านกำหนดการพลวัต ชุดปัญหาด้านเกมเชิงการจัด ชุดปัญหาด้านกราฟ ชุดปัญหาด้านเครือข่ายการไหล ชุดปัญหาด้านสายอักขระ  ชุดปัญหาด้านเรขาคณิต",
+      "desc_EN": "Introduction to competitive programming, advanced data structures, problem set: mathematics, problem set: dynamic programming, problem set: combinatorial game, problem set: graph, problem set: flow network, problem set: string, problem set: geometry",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "204255"
+      ],
+      "official_prereq": "204251 or 204252 or 204255",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204361": {
+      "id": "204361",
+      "name_TH": "วิศวกรรมซอฟต์แวร์",
+      "name_EN": "Software Engineering",
+      "credits": "3(3-0-6)",
+      "desc_TH": "บทนำเกี่ยวกับวิศวกรรมซอฟต์แวร์ ตัวแบบของกระบวนการซอฟต์แวร์ เครื่องมือและสภาพแวดล้อมเชิงซอฟต์แวร์ การประกันคุณภาพเชิงซอฟต์แวร์ การจัดระเบียบและการวางแผนโครงการ ความต้องการและการระบุข้อกำหนดความต้องการซอฟต์แวร์ เทคนิคการออกแบบซอฟต์แวร์ การสร้างซอฟต์แวร์ การตรวจสอบและการทวนสอบซอฟต์แวร์ และวิวัฒนาการเชิงซอฟต์แวร์",
+      "desc_EN": "Introduction to software engineering, models of software process, software tools and environments, software quality assurance, project planning and organization, software requirements and specification, software design techniques, software construction, software validation and verification and software evolution.",
+      "classification": "compulsory",
+      "is_project_based": false,
+      "prerequisites": [
+        "204212"
+      ],
+      "official_prereq": "204212",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "204362": {
+      "id": "204362",
+      "name_TH": "การออกแบบเชิงวัตถุ",
+      "name_EN": "Object-oriented Design",
+      "credits": "3(3-0-6)",
+      "desc_TH": "แนวคิดเชิงวัตถุ วัฏจักรการพัฒนาซอฟต์แวร์เชิงวัตถุ การรวบรวมความต้องการ แนวคิดการสร้างแบบจำลอง แผนภาพการไหลของธุรกิจ แบบจำลองยูสเคส ข้อกำหนดยูสเคส แผนภาพการปฏิสัมพันธ์ของวัตถุตามกรอบงานเอ็มวีซี การสกัดคลาส การออกแบบฐานข้อมูล การทดสอบเชิงวัตถุ และการนำซอฟต์แวร์ขึ้นใช้งาน",
+      "desc_EN": "Object-oriented concept, object-oriented software development life cycle, requirements capture, modeling concept, business flow diagram, use case model, use case specification, object interaction diagram base on MVC framework, class extraction, database design, object-oriented testing, and software deployment.",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "204212",
+        "204321",
+        "204361"
+      ],
+      "official_prereq": "204211 or 204212 or 204321 or 204361",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204363": {
+      "id": "204363",
+      "name_TH": "ความต้องการและการสร้างตัวแบบซอฟต์แวร์",
+      "name_EN": "Software Modeling and Requirements",
+      "credits": "3(3-0-6)",
+      "desc_TH": "การสร้างตัวแบบระบบและการพัฒนา วัฏจักรการพัฒนาซอฟต์แวร์ ภาษาสร้างตัวแบบซอฟต์แวร์ การติดตามและการวางแผนโครงการซอฟต์แวร์เครื่องมือวิศวกรรมซอฟต์แวร์การเก็บรวบรวมความต้องการ การวิเคราะห์ความต้องการ การระบุข้อกำหนดความต้องการและการจัดทำเอกสารความต้องการ การตรวจสอบความต้องการ การแปลงความต้องการเป็นการออกแบบเชิงสถาปัตยกรรม",
+      "desc_EN": "System modeling and development, software development life cycle, software modeling language, software project planning and tracking, software engineering tools, eliciting requirements, requirements analysis, requirements specification and documentation, requirements validation, transformation of requirements to architectural design.",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "204212"
+      ],
+      "official_prereq": "204211 or 204212",
+      "terms": {
+        "t1": false,
+        "t2": false
+      }
+    },
+    "204364": {
+      "id": "204364",
+      "name_TH": "การทดสอบและการประกันคุณภาพซอฟต์แวร์",
+      "name_EN": "Software Testing and Quality Assurance",
+      "credits": "3(3-0-6)",
+      "desc_TH": "ภาพรวมของการทดสอบและการประกันคุณภาพซอฟต์แวร์ ระดับและวิธีการของการทดสอบ การทดสอบโครงสร้างและการไหลของข้อมูล การพัฒนาที่ขับเคลื่อนด้วยการทดสอบ การทดสอบส่วนประสานผู้ใช้และการพัฒนาที่ขับเคลื่อนด้วยพฤติกรรม การระบุตำแหน่งของข้อผิดพลาด การวัดคุณภาพและประสิทธิภาพของการทดสอบ เครื่องมือและเฟรมเวิร์คสนับสนุนการทดสอบ แนวโน้มที่เกิดขึ้นใหม่และทิศทางในอนาคต",
+      "desc_EN": "Overview of software testing and quality assurance, testing levels and methodologies, structural and data-flow testing, test-driven development, user interface testing and behavior-driven development, fault localization, measuring test quality and effectiveness, supporting tools and frameworks for testing, emerging trends and future directions.",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "204361"
+      ],
+      "official_prereq": "204361",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204365": {
+      "id": "204365",
+      "name_TH": "ปฏิสัมพันธ์ระหว่างมนุษย์และคอมพิวเตอร์",
+      "name_EN": "Human-computer Interaction",
+      "credits": "3(3-0-6)",
+      "desc_TH": "ภาพรวมการปฏิสัมพันธ์ระหว่างมนุษย์และคอมพิวเตอร์ ความสามารถและพฤติกรรมของมนุษย์ คอมพิวเตอร์และอุปกรณ์ที่เกี่ยวข้องในการนำข้อมูลเข้าและออก แบบจำลองการปฏิสัมพันธ์ระหว่างมนุษย์และคอมพิวเตอร์ การใช้งานได้ของระบบเชิงโต้ตอบ เทคนิคและเทคโนโลยีส่วนต่อประสาน กระบวนการออกแบบการปฏิสัมพันธ์ เทคนิคการประเมินผล",
+      "desc_EN": "Overview of human-computer interaction, human capabilities and behaviors, computer and associated input-output devices, models of interaction between human and computer, usability of interactive systems, interface techniques and technologies, process of interaction design and evaluation techniques.",
+      "classification": "project-elective",
+      "is_project_based": true,
+      "prerequisites": [
+        "204212",
+        "204215",
+        "204217",
+        "204219"
+      ],
+      "official_prereq": "204203 or 204212 or 204215 or 204216 or 204217 or 204219",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204371": {
+      "id": "204371",
+      "name_TH": "วิศวกรรมคุณลักษณะ",
+      "name_EN": "Feature Engineering",
+      "credits": "3(2-2-5)",
+      "desc_TH": "ภาพรวมของวิศวกรรมคุณลักษณะ ความเข้าใจคุณลักษณะ กระบวนการปรับปรุงคุณลักษณะ การสร้างคุณลักษณะ การสกัดคุณลักษณะ การลดมิติและการฝังตรึงข้อมูล",
+      "desc_EN": "Overview of feature engineering, feature understanding, features enhancement, feature construction, feature extraction, dimensionality reduction and embedding",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "204271",
+        "229351"
+      ],
+      "official_prereq": "204271 or 229351",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "204381": {
+      "id": "204381",
+      "name_TH": "การคำนวณเชิงตัวเลขและซอฟต์แวร์",
+      "name_EN": "Numerical Computation and Software",
+      "credits": "3(3-0-6)",
+      "desc_TH": "บทนำสู่การคำนวณเชิงตัวเลข ระบบสมการเชิงเส้นและการสร้างชุดคำสั่ง การประมาณค่าฟังก์ชันแบบอินเทอร์โปเลทและการสร้างชุดคำสั่ง การคำนวณควอดเดรเจอร์เชิงตัวเลขและการสร้างชุดคำสั่ง การหาอนุพันธ์เชิงตัวเลขและการสร้างชุดคำสั่ง การประมาณค่าฟังก์ชันแบบเชิงเส้นโดยวิธีกำลังสองน้อยที่สุดและการสร้างชุดคำสั่ง การหาคำตอบของสมการไม่เชิงเส้นและการสร้างชุดคำสั่ง",
+      "desc_EN": "Introduction to numerical computation, linear system of equations and program implementation, interpolations and program implementation, numerical quadrature and program implementation, numerical differentiation and program implementation, linear least squares data fitting and program implementation, solution of nonlinear equations and program implementation.",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "204212",
+        "204215",
+        "204217",
+        "204219",
+        "229223",
+        "206111"
+      ],
+      "official_prereq": "204203 or 204212 or 204215 or 204216 or 204217 or 204219 or 229223; and 206111",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "204382": {
+      "id": "204382",
+      "name_TH": "คอมพิวเตอร์กราฟิก",
+      "name_EN": "Computer Graphics",
+      "credits": "3(3-0-6)",
+      "desc_TH": "แนะนำคอมพิวเตอร์กราฟิก อุปกรณ์การแสดงผล เทคนิคการสร้างภาพเรขาคณิต หน้าต่างและวิวพอร์ต การแปลง การระบาย หน้าต่างและการตัดรูปในกรอบ ส่วนของภาพ เส้นโค้ง แนะนำรูปสามมิติ การแปลงในสามมิติ การประยุกต์ใช้งานคอมพิวเตอร์กราฟิก",
+      "desc_EN": "Introduction to computer graphics, video display device, geometric modeling technique, window and viewport, transformation, filling, windowing and clipping, segment, curve, introduction to three-dimensional objects. three-dimensional transformation and computer graphic applications.",
+      "classification": "project-elective",
+      "is_project_based": true,
+      "prerequisites": [
+        "204212",
+        "204215",
+        "204217",
+        "204219",
+        "206111"
+      ],
+      "official_prereq": "204203 or 204212 or 204215 or 204216 or 204217 or 204219; and 206111",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204383": {
+      "id": "204383",
+      "name_TH": "การประมวลผลภาพ",
+      "name_EN": "Image Processing",
+      "credits": "3(3-0-6)",
+      "desc_TH": "การมองเห็นภาพ การแสวงหาภาพ การเก็บตัวอย่างภาพและควอนติเซชัน การแปลงภาพ การแทนภาพ การปรับปรุงภาพให้ดีขึ้น การแบ่งย่อยภาพ การสร้างภาพขึ้นมาใหม่ การบีบอัดข้อมูลภาพ",
+      "desc_EN": "Image perception, image acquisition, image sampling and quantization, image transformation, image representation, image enhancement, image segmentation, image reconstruction, image data compression.",
+      "classification": "project-elective",
+      "is_project_based": true,
+      "prerequisites": [
+        "204212",
+        "204215",
+        "204217",
+        "204219",
+        "206111",
+        "229223"
+      ],
+      "official_prereq": "204203 or 204212 or 204215 or 204216 or 204217 or 204219 or 229223; and 206111",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "204422": {
+      "id": "204422",
+      "name_TH": "คลังข้อมูล",
+      "name_EN": "Data Warehousing",
+      "credits": "3(2-2-5)",
+      "desc_TH": "คลังข้อมูลเบื้องต้น สถาปัตยกรรมคลังข้อมูล การออกแบบคลังข้อมูล กระบวนการสกัด การทำความสะอาด การแปลง และการบรรจุข้อมูล การสร้างตัวแบบข้อมูลแบบหลายมิติ การประมวลผลเชิงวิเคราะห์แบบออนไลน์ (โอแล็ป) การวิเคราะห์คลังข้อมูลด้วยเทคนิคเหมืองข้อมูล การจัดการเมตาดาตาของคลัง การจัดการการเปลี่ยนแปลงของคลังข้อมูล การบูรณาการสารสนเทศ การประยุกต์คลังข้อมูลและการพัฒนา",
+      "desc_EN": "Introduction to data warehousing, data warehouse architecture, data warehouse design, data extraction, cleansing, transformation and loading, multidimensional data modeling, Online Analytical Processing (OLAP), data warehouse analytical processing with data mining techniques, managing warehouse metadata, handling changes of data warehouse, information integration, data warehouse application and development.",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "204321",
+        "229323"
+      ],
+      "official_prereq": "204320 or 204321 or 229323",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204423": {
+      "id": "204423",
+      "name_TH": "การทำเหมืองข้อมูล",
+      "name_EN": "Data Mining",
+      "credits": "3(3-0-6)",
+      "desc_TH": "แนวคิดพื้นฐานของการทำเหมืองข้อมูล เครื่องมือพื้นฐานและการประมวลผลข้อมูลก่อน การจำแนกข้อมูล การทำเหมืองสำหรับตัวแบบและความสัมพันธ์ และการจัดกลุ่มข้อมูล",
+      "desc_EN": "Basic concepts of data mining, basic tools and data preprocessing, data classification, mining for patterns and associations, and data clustering.",
+      "classification": "project-elective",
+      "is_project_based": true,
+      "prerequisites": [
+        "204271",
+        "208150",
+        "208263",
+        "208264",
+        "208269"
+      ],
+      "official_prereq": "204251 or 204252 or 204271; and 208150 or 208263 or 208264 or 208269",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204424": {
+      "id": "204424",
+      "name_TH": "การออกแบบและพัฒนาออนโทโลยี",
+      "name_EN": "Ontology Design and Development",
+      "credits": "3(3-0-6)",
+      "desc_TH": "แนวคิดออนโทโลยี เอกสารเว็บแบบมีโครงสร้าง การกำหนดเค้าร่างทรัพยากรเว็บ ภาษาออนโทโลยีเว็บ วิศวกรรมออนโทโลยี โปรแกรมประยุกต์ที่ใช้ออนโทโลยี การสอบถามเว็บเชิงความหมาย ตรรกะและกฎการอนุมาน",
+      "desc_EN": "Ontology concept, structured web documents, defining web resource schema, web ontology language, ontology engineering, applications using ontology, querying semantic web, logic and inference rules.",
+      "classification": "project-elective",
+      "is_project_based": true,
+      "prerequisites": [
+        "204321"
+      ],
+      "official_prereq": "204320 or 204321",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204425": {
+      "id": "204425",
+      "name_TH": "ระบบสารสนเทศเพื่อการจัดการ",
+      "name_EN": "Management Information System",
+      "credits": "3(3-0-6)",
+      "desc_TH": "แนะนำระบบสารสนเทศและโมเดลธุรกิจ ระบบประมวลผลรายการธุรกิจ ระบบสารสนเทศการจัดการและธุรกิจอัจฉริยะ ระบบสนับสนุนการตัดสินใจ ระบบสารสนเทศผู้บริหาร และระบบผู้เชี่ยวชาญและปัญญาประดิษฐ์",
+      "desc_EN": "Introduction to information system and business model, business transaction processing system, management information system and business intelligence, decision support system, executive information system, and expert system and artificial intelligence.",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "204321",
+        "204325",
+        "204361",
+        "204362"
+      ],
+      "official_prereq": "204320 or 204321 or 204325 or 204361 or 204362",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204426": {
+      "id": "204426",
+      "name_TH": "วิศวกรรมข้อมูล",
+      "name_EN": "Data Engineering",
+      "credits": "3(2-2-5)",
+      "desc_TH": "ภาพรวมของวิศวกรรมข้อมูล  เส้นทางการไหลของข้อมูล  วงจรชีวิตของวิศวกรรมข้อมูล  การก่อกำเนิดข้อมูลในระบบแหล่งข้อมูล  หน่วยเก็บข้อมูล  การนำเข้าข้อมูล  การคิวรี การจำลองแบบ และการแปลงข้อมูล  การบริการข้อมูลสำหรับการใช้งานเฉพาะทาง ความปลอดภัยของข้อมูลและความเป็นส่วนตัว",
+      "desc_EN": "Overview of data engineering, data pipeline, data engineering lifecycle, data generation in source systems, data storage, data ingestion, queries, data modeling and transformation, data services for specific uses, and data security and privacy.",
+      "classification": "project-elective",
+      "is_project_based": true,
+      "prerequisites": [
+        "204321",
+        "229323"
+      ],
+      "official_prereq": "204320 or 204321 or 229323",
+      "terms": {
+        "t1": true,
+        "t2": true
+      }
+    },
+    "204432": {
+      "id": "204432",
+      "name_TH": "การออกแบบและจัดการเครือข่ายคอมพิวเตอร์",
+      "name_EN": "Computer Network Design and Management",
+      "credits": "3(2-2-5)",
+      "desc_TH": "ระบบเครือข่ายและอินเทอร์เน็ต แนวคิดการจัดสรรเส้นทางและการส่งต่อแพ็กเกต แลนและสวิตชิง การจัดสรรเส้นทางแบบคงที่ การจัดสรรเส้นทางแบบเปลี่ยนแปลงได้ และเน็ตเวิร์คแอดเดรสทรานสเลชัน และการจัดการเครือข่าย",
+      "desc_EN": "Network system and Internet, concepts of routing and packet forwarding, LAN and switching, static routing, dynamic routing and network address translation and network management.",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "204232"
+      ],
+      "official_prereq": "204232",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "204435": {
+      "id": "204435",
+      "name_TH": "การประมวลผลแบบขนาน",
+      "name_EN": "Parallel Processing",
+      "credits": "3(3-0-6)",
+      "desc_TH": "แนวคิดของการประมวลผลแบบขนาน  ระบบหน่วยความจำของการประมวลผลแบบขนาน การจัดการหน่วยความจำของการประมวลผลแบบขนาน หลักการประมวลผลแบบไปป์ไลนิงและการประมวลผลเวคเตอร์ โครงสร้างและขั้นตอนวิธีของหน่วยประมวลผลแบบอาเรย์ สถาปัตยกรรมแบบมัลติโพรเซสเซอร์และการเขียนโปรแกรม คอมพิวเตอร์แบบกระแสข้อมูลและการคำนวณด้วยวงจรรวมความจุสูงมาก (วีแอลเอสไอ) และตัวอย่างของระบบแบบมัลติโพรเซสเซอร์",
+      "desc_EN": "Parallel processing concepts, parallel processing memory systems, parallel processing memory management, principles of pipelining and vector processing, structures and algorithms for array processor, multiprocessor architecture and programming, data flow computers and Very Large Scale Integration (VLSI) computations and example of multiprocessor system.",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "204341"
+      ],
+      "official_prereq": "204341",
+      "terms": {
+        "t1": false,
+        "t2": false
+      }
+    },
+    "204441": {
+      "id": "204441",
+      "name_TH": "การเขียนโปรแกรมแบบทำงานหลายอย่างพร้อมกันและระบบกระจาย",
+      "name_EN": "Concurrent Programming and Distributed System",
+      "credits": "3(3-0-6)",
+      "desc_TH": "ภาพรวมของการเขียนโปรแกรมแบบทำงานหลายอย่างพร้อมกัน แบบจำลองของภาวะพร้อมกัน โปรแกรมแบบทำงานหลายอย่างพร้อมกันโดยการใช้หน่วยความจำร่วมกัน โปรแกรมแบบทำงานหลายอย่างพร้อมกันโดยการส่งข้อมูล เวลาและสถานะส่วนกลาง รายการและการควบคุมภาวะพร้อมกัน ภาพรวมของระบบกระจาย ภาวะพร้อมกันในระบบกระจาย และตัวอย่าง",
+      "desc_EN": "Overview of concurrent programming, concurrency model, resource sharing concurrent programming, message passing concurrent programming, time and global states, transaction and concurrency control, distributed system overview, concurrency in distributed system and examples.",
+      "classification": "project-elective",
+      "is_project_based": true,
+      "prerequisites": [
+        "204341"
+      ],
+      "official_prereq": "204341",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204442": {
+      "id": "204442",
+      "name_TH": "การสร้างคอมไพเลอร์",
+      "name_EN": "Compiler Construction",
+      "credits": "3(3-0-6)",
+      "desc_TH": "บทนำของตัวแปลภาษาคอมพิวเตอร์ การวิเคราะห์คำศัพท์ ตารางสัญลักษณ์ การวิเคราะห์วากยสัมพันธ์ การก่อเกิดรหัสระหว่างกลาง การวิเคราะห์ความหมาย สภาพแวดล้อมรันไทม์ และการก่อกำเนิดรหัสและการเพิ่มประสิทธิภาพ",
+      "desc_EN": "Introduction to compiler, lexical analysis, symbol tables, syntax analysis, intermediate code generation, semantic analysis, runtime environment, and code generation and optimization.",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "204315"
+      ],
+      "official_prereq": "204315",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "204443": {
+      "id": "204443",
+      "name_TH": "ความปลอดภัยในระบบคอมพิวเตอร์",
+      "name_EN": "Computer System Security",
+      "credits": "3(3-0-6)",
+      "desc_TH": "ภาพรวมของระบบความปลอดภัย การพิจารณาการจัดการความปลอดภัย การวิเคราะห์ภัยคุกคามและการจัดการความเสี่ยง ความปลอดภัย การเข้ารหัสและการถอดรหัสเบื้องต้น การประยุกต์เทคโนโลยีความปลอดภัย ข้อกฎหมายและจริยธรรมด้านความปลอดภัยในระบบคอมพิวเตอร์ กรณีศึกษาความปลอดภัยในระบบคอมพิวเตอร์",
+      "desc_EN": "Overview of security system, security management consideration, threats analysis and risk management, security, basic encryption and decryption, security technology application, legal and ethical issues in computer security, and case study in computer system security.",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "204341"
+      ],
+      "official_prereq": "204341",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204451": {
+      "id": "204451",
+      "name_TH": "การออกแบบและการวิเคราะห์อัลกอริทึม",
+      "name_EN": "Algorithm Design and Analysis",
+      "credits": "3(3-0-6)",
+      "desc_TH": "ทบทวนคณิตศาสตร์ ความสำคัญของอัลกอริทึมที่มีประสิทธิภาพ สัญกรณ์เชิงเส้นกำกับ การแก้ปัญหาความสัมพันธ์แบบเวียนเกิด อัลกอริทึมแบบแบ่งแยกและเอาชนะ ต้นไม้การตัดสินใจและขอบเขตล่าง ปัญหาเกี่ยวกับสายอักขระ อัลกอริทึมเชิงละโมบ กำหนดการพลวัต การไหลในเครือข่าย เอ็นพีบริบูรณ์ และออโตมาตา",
+      "desc_EN": "Mathematic reviews, the importance of efficient algorithms, asymptotic notation, solving recurrence relations, divide-and-conquer algorithms, decision trees and lower bounds, string related problem, greedy algorithms, dynamic programming, network flow, NP-completeness and automata.",
+      "classification": "compulsory",
+      "is_project_based": false,
+      "prerequisites": [
+        "204255"
+      ],
+      "official_prereq": "204252 or 204255",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "204452": {
+      "id": "204452",
+      "name_TH": "ทฤษฎีการคำนวณ",
+      "name_EN": "Theory of Computation",
+      "credits": "3(3-0-6)",
+      "desc_TH": "การแยกประเภทปัญหาตามความยากของการคำนวณปัญหาที่มีความยากต่างกัน ทฤษฎีออโตเมตา ทฤษฎีการคำนวณได้และการลดทอน ทฤษฎีความซับซ้อน",
+      "desc_EN": "Classifying problems by the difference in computational hardness, automata theory, computability theory and reductions, and complexity theory.",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "204255",
+        "206183",
+        "206281"
+      ],
+      "official_prereq": "204251 or 204252 or 204255; and 206183 or 206281",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "204453": {
+      "id": "204453",
+      "name_TH": "การรู้จำแบบ",
+      "name_EN": "Pattern Recognition",
+      "credits": "3(2-2-5)",
+      "desc_TH": "ภาพรวมของการรู้จำแบบ การแทนแบบ ขั้นตอนวิธีเพื่อนบ้านใกล้ที่สุด ตัวจำแนกเบส์ ต้นไม้การตัดสินใจ โครงข่ายประสาทและเครื่องกลเวกเตอร์สนับสนุน ปัญหาชั้นข้อมูลอสมดุล",
+      "desc_EN": "Overview of pattern recognition, pattern representation, nearest neighbor algorithms, Bayes classifiers, decision trees, neural networks and support vector machines and class imbalance problem.",
+      "classification": "project-elective",
+      "is_project_based": true,
+      "prerequisites": [
+        "204271",
+        "208150",
+        "208263",
+        "208264",
+        "208269"
+      ],
+      "official_prereq": "204251 or 204271; and 208150 or 208263 or 208264 or 208269",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "204454": {
+      "id": "204454",
+      "name_TH": "อัลกอริทึมและการเขียนโปรแกรมในการหาค่าเหมาะที่สุดเชิงการจัด",
+      "name_EN": "Combinatorial Optimization Algorithms and Programming",
+      "credits": "3(2-2-5)",
+      "desc_TH": "บทนำ ต้นไม้และเส้นทาง ปัญหาตำแหน่ง ปัญหาลำดับย่อย การกำหนดและการจับคู่ เครือข่ายการไหล เซตเสถียรและการทาสี การประยุกต์ใช้เพิ่มเติม",
+      "desc_EN": "Introduction, trees and paths, location problems, subsequence problems, assignments and matchings, network flow, stable sets and coloring, and additional applications.",
+      "classification": "project-elective",
+      "is_project_based": true,
+      "prerequisites": [
+        "204451"
+      ],
+      "official_prereq": "204451",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204456": {
+      "id": "204456",
+      "name_TH": "การเรียนรู้ของเครื่อง",
+      "name_EN": "Machine Learning",
+      "credits": "3(3-0-6)",
+      "desc_TH": "แนวคิดพื้นฐานของการเรียนรู้ของเครื่อง การเรียนรู้แบบมีผู้สอน การวิเคราะห์ที่ไม่ขึ้นกับขั้นตอนวิธี การเรียนรู้แบบไม่มีผู้สอน และการเรียนรู้แบบเสริมกำลัง",
+      "desc_EN": "Basic concepts of machine learning, supervised learning, algorithm independent analysis, unsupervised learning, and reinforcement learning.",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "204271",
+        "206112",
+        "208150",
+        "208263",
+        "208264",
+        "208269"
+      ],
+      "official_prereq": "204271; or ( 204251 or 204252; and 206112; and 208150 or 208263 or 208264 or 208269 )",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204471": {
+      "id": "204471",
+      "name_TH": "ปัญญาประดิษฐ์",
+      "name_EN": "Artificial Intelligence",
+      "credits": "3(3-0-6)",
+      "desc_TH": "บทนำเกี่ยวกับปัญญาประดิษฐ์ ระเบียบวิธีการแก้ปัญหา การแทนความรู้ ระบบผู้เชี่ยวชาญ การเรียนรู้ในระบบปัญญาประดิษฐ์ และภาษาทางปัญญาประดิษฐ์",
+      "desc_EN": "Introduction to artificial intelligence, problem solving methodology, knowledge representation, expert system, learning in artificial intelligence and artificial intelligence languages.",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "204271",
+        "206183",
+        "206281"
+      ],
+      "official_prereq": "204251 or 204252 or 204271; and 206183 or 206281",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "204472": {
+      "id": "204472",
+      "name_TH": "การประมวลผลภาษาธรรมชาติ",
+      "name_EN": "Natural Language Processing",
+      "credits": "3(3-0-6)",
+      "desc_TH": "บทนำของการประมวลผลภาษาธรรมชาติ การสร้างตัวแบบภาษาด้วยเอ็น-แกรมส์ การจำแนกกลุ่มและการวิเคราะห์ความรู้สึก เวกเตอร์ความหมาย โครงข่ายประสาทและตัวแบบภาษาประสาท การติดป้ายระบุชนิดของคำและตัวแบบมาร์คอฟซ่อนเร้น การประมวลผลแบบลำดับด้วยโครงข่ายที่เกิดซ้ำและการประยุกต์ ไวยากรณ์ที่เป็นรูปแบบของภาษาอังกฤษและภาษาไทย การแจงส่วน การติดป้ายบทบาทความหมาย ระบบคำตอบโต้ และแชทบอท",
+      "desc_EN": "Introduction to natural language processing, language modeling with n-grams, classification and sentiment analysis, vector semantics, neural network and neural language model, part-of-speech tagging and hidden Markov model, sequence processing with recurrent networks and application, formal grammars of English and Thai, parsing, semantic role labeling, dialog system and chatbot",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "204271",
+        "208150",
+        "208263",
+        "208264",
+        "208269"
+      ],
+      "official_prereq": "204251 or 204252 or 204271; and 208150 or 208263 or 208264 or 208269",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204481": {
+      "id": "204481",
+      "name_TH": "กำหนดการเชิงคณิตศาสตร์และซอฟต์แวร์",
+      "name_EN": "Mathematical Programming and Software",
+      "credits": "3(3-0-6)",
+      "desc_TH": "แนวคิดของกำหนดการเชิงคณิตศาสตร์ พื้นฐานพีชคณิตเชิงเส้น กำหนดการเชิงเส้น กำหนดการจำนวนเต็ม การวิเคราะห์ความอ่อนไหว กำหนดการไม่เชิงเส้น และทฤษฎีเกม",
+      "desc_EN": "Concept of mathematical programming, basic linear algebra, linear programming, integer programming, sensitivity analysis, non-linear programming, and game theory.",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "204381",
+        "206355"
+      ],
+      "official_prereq": "204381 or 206355",
+      "terms": {
+        "t1": false,
+        "t2": false
+      }
+    },
+    "204482": {
+      "id": "204482",
+      "name_TH": "การจำลองแบบปัญหาและแบบจำลอง",
+      "name_EN": "Simulation and Modelling",
+      "credits": "3(3-0-6)",
+      "desc_TH": "บทนำเกี่ยวกับการจำลองแบบปัญหา เทคนิคทางสถิติสำหรับการจำลองแบบปัญหา การจำลองแบบปัญหาแบบต่อเนื่อง การจำลองแบบปัญหาแบบไม่ต่อเนื่อง ภาษาที่ใช้ในการจำลองแบบปัญหา ระเบียบวิธีการจำลองแบบปัญหา การประยุกต์ใช้งานการจำลองแบบปัญหา",
+      "desc_EN": "Introduction to simulation, statistical techniques for simulation, continuous simulations, discrete simulations, simulation languages, simulation methodologies, simulation applications.",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "204212",
+        "204215",
+        "204217",
+        "204219",
+        "229223",
+        "206111",
+        "208250",
+        "208263",
+        "208264",
+        "208269"
+      ],
+      "official_prereq": "204212 or 204215 or 204216 or 204217 or 204219 or 229223; and 206111; and 208250 or 208263 or 208264 or 208269",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204483": {
+      "id": "204483",
+      "name_TH": "การมองเห็นของคอมพิวเตอร์",
+      "name_EN": "Computer Vision",
+      "credits": "3(3-0-6)",
+      "desc_TH": "บทนำและความสัมพันธ์กับสาขาอื่น การวิเคราะห์ภาพเก็บบิตเดียว บริเวณของจุดภาพที่เชื่อมต่อกัน ระบบของตัวกรอง การสกัดและการวิเคราะห์ลักษณะเด่น การแทนเส้นรอบขอบ ตัวบอกลวดลายสำหรับการมองเห็นของคอมพิวเตอร์ ทัศนศาสตร์ การสร้างและระบบศัพท์ภาพ การมองเห็นในมุมมองสามมิติทางเรขาคณิต และการประยุกต์ใช้การมองเห็นของคอมพิวเตอร์",
+      "desc_EN": "Introduction and relationships to other fields, binary image analysis, region of connected pixels, systems of filters, feature extraction and analysis, contour representation, texture descriptors for computer vision, optics, image formation and terminology, geometric stereo vision, and computer vision applications.",
+      "classification": "project-elective",
+      "is_project_based": true,
+      "prerequisites": [
+        "204382",
+        "204383"
+      ],
+      "official_prereq": "204382 or 204383",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "204492": {
+      "id": "204492",
+      "name_TH": "หัวข้อเลือกสรรทางวิทยาการคอมพิวเตอร์ 3",
+      "name_EN": "Selected Topics in Computer Science 3",
+      "credits": "2(2-0-4)",
+      "desc_TH": "เป็นการบรรยายในหัวข้อใหม่ต่างๆ ที่เป็นที่น่าสนใจในทางวิทยาการคอมพิวเตอร์ การให้ลำดับขั้นเป็นที่น่าพอใจ (Satisfactory : S) หรือไม่เป็นที่น่าพอใจ (Unsatisfactory : U)",
+      "desc_EN": "Lecture series are offered on topics of current interest in any area of computer science. Grading will be given on satisfactory or unsatisfactory basis.",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "204111"
+      ],
+      "official_prereq": "204111 and consent of the department",
+      "terms": {
+        "t1": false,
+        "t2": false
+      }
+    },
+    "204493": {
+      "id": "204493",
+      "name_TH": "การฝึกงานด้านการวิจัย",
+      "name_EN": "Research Apprenticeship",
+      "credits": "3(0-9-0)",
+      "desc_TH": "กระบวนวิชานี้ให้นักศึกษาระดับปริญญาตรีได้ทำงานร่วมกับคณาจารย์และนักวิจัยในสาขาวิทยาการคอมพิวเตอร์ โดยมีอาจารย์ที่ปรึกษาหลักเป็นคณาจารย์ในภาควิชาวิทยาการคอมพิวเตอร์ นักศึกษาจะได้ทำงานอย่างใกล้ชิดกับอาจารย์ผู้ดูแล เพื่อพัฒนาความรู้และทักษะในด้านที่จำเป็นต่อการทำงานวิจัย กระบวนวิชานี้ถูกออกแบบมาเพื่อกระตุ้นการรับรู้ถึงงานวิจัยขั้นสูงและส่งเสริมความสนใจในการศึกษาต่อในระดับบัณฑิตศึกษา",
+      "desc_EN": "This course allows undergraduate students to work with faculty members and researchers in the field of computer science, with the primary advisor being a faculty member from the Department of Computer Science. Students will work closely with their supervising faculty members to develop knowledge and skills necessary for conducting research. The course is designed to raise awareness of advanced research and to promote interest in pursuing graduate studies.",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "consent of the department",
+      "terms": {
+        "t1": false,
+        "t2": false
+      }
+    },
+    "204494": {
+      "id": "204494",
+      "name_TH": "หัวข้อเลือกสรรทางวิทยาการคอมพิวเตอร์ 1",
+      "name_EN": "Selected Topics in Computer Science 1",
+      "credits": "3(3-0-6)",
+      "desc_TH": "เป็นการบรรยายในหัวข้อใหม่ต่างๆ ที่เป็นที่น่าสนใจในทางวิทยาการคอมพิวเตอร์",
+      "desc_EN": "Lecture series are offered on topics of current interest in any area of computer science.",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "consent of the department",
+      "terms": {
+        "t1": false,
+        "t2": false
+      }
+    },
+    "204495": {
+      "id": "204495",
+      "name_TH": "หัวข้อเลือกสรรทางวิทยาการคอมพิวเตอร์ 2",
+      "name_EN": "Selected Topics in Computer Science 2",
+      "credits": "3(3-0-6)",
+      "desc_TH": "เป็นการบรรยายในหัวข้อใหม่ต่างๆ ที่เป็นที่น่าสนใจในทางวิทยาการคอมพิวเตอร์",
+      "desc_EN": "Lecture series are offered on topic of current interest in any area of computer science.",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "consent of the department",
+      "terms": {
+        "t1": false,
+        "t2": false
+      }
+    },
+    "204496": {
+      "id": "204496",
+      "name_TH": "สหกิจศึกษา",
+      "name_EN": "Cooperative Education",
+      "credits": "6",
+      "desc_TH": "นักศึกษาต้องไปทำงานที่เกี่ยวกับคอมพิวเตอร์ในสถานประกอบการเป็นเวลาไม่น้อยกว่า 16 สัปดาห์อย่างต่อเนื่อง โดยปฏิบัติงานเสมือนพนักงานในสถานประกอบการภายใต้การควบคุมดูแลของหัวหน้างานที่ได้รับมอบหมายจากทางสถานประกอบการและคณาจารย์จากทางมหาวิทยาลัย มีการทำรายงานและการสอบปากเปล่า โดยมีการประเมินผลเป็นผ่านหรือไม่ผ่าน",
+      "desc_EN": "Students are required to work in computer related in the organization for a minimum period of continuous 16-weeks as a staff in the organization under supervision of in-charge trainer(s) at the organization and instructor(s) of the university. A proper written report and oral examination are required. Grading will be given on satisfactory or unsatisfactory basis.",
+      "classification": "compulsory",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "consent of the department",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "204497": {
+      "id": "204497",
+      "name_TH": "สัมมนาทางวิทยาการคอมพิวเตอร์",
+      "name_EN": "Seminar in Computer Science",
+      "credits": "1(1-0-2)",
+      "desc_TH": "การเสนอหัวข้อสัมมนาทางวิทยาการคอมพิวเตอร์ที่ทันสมัย ภายใต้การแนะนำของอาจารย์ การเขียนรายงานเป็นสิ่งที่ต้องจัดทำด้วย การวัดผลเป็นแบบผ่านหรือไม่ผ่าน",
+      "desc_EN": "Presentation of current Computer science topics under supervision of staff. A written report is also required. Grading will be given on satisfactory or unsatisfactory basis.",
+      "classification": "compulsory",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "consent of the department",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "206111": {
+      "id": "206111",
+      "name_TH": "แคลคูลัส 1",
+      "name_EN": "Calculus 1",
+      "credits": "3(3-0-6)",
+      "desc_TH": "อนุพันธ์และการประยุกต์ การหาปริพันธ์และการประยุกต์ สมการเชิงอนุพันธ์อันดับหนึ่งและการประยุกต์",
+      "desc_EN": "Derivatives and applications, integration and applications, and first-order differential equations and some applications.",
+      "classification": "compulsory",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "None",
+      "terms": {
+        "t1": true,
+        "t2": true
+      }
+    },
+    "206112": {
+      "id": "206112",
+      "name_TH": "แคลคูลัส 2",
+      "name_EN": "Calculus 2",
+      "credits": "3(3-0-6)",
+      "desc_TH": "สมการเชิงอนุพันธ์เชิงเส้นอันดับสอง ฟังก์ชันหลายตัวแปร ปริพันธ์หลายชั้น อนุกรมอนันต์",
+      "desc_EN": "Linear second-order differential equations, functions of several variables, multiple integrals, and infinite series.",
+      "classification": "compulsory",
+      "is_project_based": false,
+      "prerequisites": [
+        "206111"
+      ],
+      "official_prereq": "206111",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "206183": {
+      "id": "206183",
+      "name_TH": "โครงสร้างวิยุต",
+      "name_EN": "Discrete Structure",
+      "credits": "3(3-0-6)",
+      "desc_TH": "เซต ตรรกศาสตร์เชิงประพจน์และการพิสูจน์ การอุปนัยเชิงคณิตศาสตร์และการเวียนเกิด ทฤษฎีจำนวนพื้นฐาน ความสัมพันธ์และฟังก์ชัน การนับพื้นฐาน สัมประสิทธิ์ทวินาม",
+      "desc_EN": "Sets, propositional logics and proofs, mathematical induction and recursions, basic number theory, relations and functions, basic counting, binomial coefficients.",
+      "classification": "compulsory",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "None",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "206324": {
+      "id": "206324",
+      "name_TH": "พีชคณิตเชิงเส้นประยุกต์",
+      "name_EN": "Applied Linear Algebra",
+      "credits": "3(3-0-6)",
+      "desc_TH": "ระบบสมการเชิงเส้น เมทริกซ์ ดีเทอร์มิแนนต์ ปริภูมิเวกเตอร์ ปริภูมิผลคูณภายใน การแปลงเชิงเส้น ค่าลักษณะเฉพาะและเวกเตอร์ลักษณะเฉพาะ และการประยุกต์",
+      "desc_EN": "System of linear equations, matrices, determinants, vector spaces, inner product spaces, linear transformations, eigenvalues and eigenvectors, and their applications.",
+      "classification": "compulsory",
+      "is_project_based": false,
+      "prerequisites": [
+        "206112",
+        "206203",
+        "206261"
+      ],
+      "official_prereq": "206112 or 206203 or 206261",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "206336": {
+      "id": "206336",
+      "name_TH": "การวิเคราะห์เชิงจริง 1",
+      "name_EN": "Real analysis 1",
+      "credits": "3(3-0-6)",
+      "desc_TH": "จำนวนจริง ลำดับและอนุกรมของจำนวน ลิมิตและภาวะต่อเนื่องของฟังก์ชัน การหาอนุพันธ์ ปริพันธ์แบบรีมันน์",
+      "desc_EN": "Real numbers, sequences and series of numbers, limits and continuity of functions, differentiation, Riemann integral.",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "206217"
+      ],
+      "official_prereq": "206217",
+      "terms": {
+        "t1": true,
+        "t2": true
+      }
+    },
+    "206370": {
+      "id": "206370",
+      "name_TH": "ความน่าจะเป็น 1",
+      "name_EN": "Probability 1",
+      "credits": "3(3-0-6)",
+      "desc_TH": "รากฐานของความน่าจะเป็น ความน่าจะเป็นมีเงื่อนไข ตัวแปรสุ่ม ตัวแปรสุ่มวิยุตที่สำคัญ ตัวแปรสุ่มต่อเนื่องที่สำคัญ ทฤษฎีบทขีดจำกัด",
+      "desc_EN": "Foundation of probability, conditional probability, random variables, important discrete random variables, important continuous random variables, limit theorems",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "206112",
+        "206203",
+        "206261"
+      ],
+      "official_prereq": "206112 or 206203 or 206261",
+      "terms": {
+        "t1": true,
+        "t2": true
+      }
+    },
+    "206428": {
+      "id": "206428",
+      "name_TH": "ทฤษฎีรหัส",
+      "name_EN": "Coding Theory",
+      "credits": "3(3-0-6)",
+      "desc_TH": "บทนำสู่ทฤษฎีรหัส รหัสเชิงเส้น ขอบเขตของรหัสและรหัส รหัสพหุนาม",
+      "desc_EN": "Introduction to coding theory, linear codes, bounds in coding theory and codes, polynomial codes.",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "206321",
+        "206325"
+      ],
+      "official_prereq": "206321 or 206325",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "206463": {
+      "id": "206463",
+      "name_TH": "การหาค่าเหมาะที่สุดเชิงกำหนด",
+      "name_EN": "Deterministic Optimization",
+      "credits": "3(3-0-6)",
+      "desc_TH": "แบบจำลองการหาค่าเหมาะที่สุดเชิงกำหนด กำหนดการเชิงเส้น กำหนดการเชิงจำนวนเต็ม การวิเคราะห์โครงข่าย กำหนดการเชิงเป้าหมาย กำหนดการไม่เชิงเส้น",
+      "desc_EN": "Deterministic optimization models, linear programming, integer programming, network analysis, goal programming, nonlinear programming.",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "206325",
+        "206336"
+      ],
+      "official_prereq": "206325 and 206336",
+      "terms": {
+        "t1": false,
+        "t2": false
+      }
+    },
+    "206476": {
+      "id": "206476",
+      "name_TH": "ทฤษฎีเกม",
+      "name_EN": "Game theory",
+      "credits": "3(3-0-6)",
+      "desc_TH": "เกมแบบเล่นพร้อมกันที่มีข้อมูลครบถ้วน เกมแบบเล่นไม่พร้อมกันที่มีข้อมูลครบถ้วน เกมแบบเล่นพร้อมกันที่มีข้อมูลไม่ครบถ้วน เกมแบบเล่นไม่พร้อมกันที่มีข้อมูลไม่ครบถ้วน",
+      "desc_EN": "Static games of complete information, dynamic games of complete information, static games of incomplete information, dynamic games of incomplete information.",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "third year standing",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "206481": {
+      "id": "206481",
+      "name_TH": "ทฤษฎีกราฟ",
+      "name_EN": "Graph Theory",
+      "credits": "3(3-0-6)",
+      "desc_TH": "บทนำ ทฤษฎีกราฟมูลฐาน กราฟต้นไม้ กราฟแบบออยเลอร์และกราฟแบบแฮมิลตัน กราฟเชิงระนาบ การให้สีกราฟ",
+      "desc_EN": "Introduction, elementary graph theory, trees, Eulerian and Hamiltonian graphs, planar graphs and graph colorings.",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "206183",
+        "206217",
+        "206281"
+      ],
+      "official_prereq": "206183 or 206217 or 206281",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "207187": {
+      "id": "207187",
+      "name_TH": "ฟิสิกส์ 1",
+      "name_EN": "Physics 1",
+      "credits": "3(3-0-6)",
+      "desc_TH": "หน่วยและการวัด กลศาสตร์ การสั่น คลื่น และเสียง ของไหล อุณหพลศาสตร์ ไฟฟ้า สนามไฟฟ้า สภาวะแม่เหล็กและสนามแม่เหล็ก ทัศนศาสตร์ และฟิสิกส์ยุคใหม่",
+      "desc_EN": "Dimension and measurement, mechanics, vibrations, wave and sound, fluid, thermodynamics, electricity, electric field, magnetism and magnetic field, optics and modern physics.",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "ไม่มี",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "208269": {
+      "id": "208269",
+      "name_TH": "สถิติสำหรับวิทยาการคอมพิวเตอร์",
+      "name_EN": "Statistics for Computer Science",
+      "credits": "3(3-0-6)",
+      "desc_TH": "ความรู้พื้นฐานเกี่ยวกับสถิติ ตัวแปรสุ่มและการแจกแจงความน่าจะเป็นของตัวแปรสุ่ม การแจกแจงความน่าจะเป็นของตัวแปรสุ่มไม่ต่อเนื่อง การแจกแจงความน่าจะเป็นของตัวแปรสุ่มต่อเนื่อง สถิติเชิงอนุมาน การทดสอบภาวะสารูปดีและการทดสอบความเป็นอิสระ การวิเคราะห์ความแปรปรวน สหสัมพันธ์และการวิเคราะห์การถดถอย",
+      "desc_EN": "Basic statistical knowledge, random variables and probability distributions, probability distribution of discrete random variables, probability distribution of continuous random variables, inferential statistics, goodness of fit test and independence test, analysis of variance, and correlation and regression analysis.",
+      "classification": "compulsory",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "None",
+      "terms": {
+        "t1": true,
+        "t2": false
+      }
+    },
+    "271111": {
+      "id": "271111",
+      "name_TH": "หุ่นยนต์วิจักษณ์",
+      "name_EN": "Robotics Appreciation",
+      "credits": "3(3-0-6)",
+      "desc_TH": "ประวัติของหุ่นยนต์และอุตสาหกรรมหุ่นยนต์ ภาพรวมของเทคโนโลยีหุ่นยนต์ การจำแนกประเภทของหุ่นยนต์ ส่วนประกอบและลักษณะของหุ่นยนต์ แนวคิดในการพัฒนาหุ่นยนต์ การประยุกต์หุ่นยนต์ ผลกระทบของหุ่นยนต์ต่อการดำรงชีวิตในสังคมโลก ผลกระทบของหุ่นยนต์ต่ออุตสาหกรรมโลก แนวโน้มการวิจัยและพัฒนาหุ่นยนต์ กรณีศึกษาหุ่นยนต์ในประเทศไทย กลุ่มวิชาด้านทักษะการเป็นผู้ประกอบการ",
+      "desc_EN": "History of robotics and robotics industry. Overview of robotics technology. Classification of robots. Components and characteristics of robots. Concept of robotics development. Robotics applications. Effects of robotics in a global living society. Effects of robotics in global industry. Trends in robotics research and development. Case studies of robotics in Thailand.",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "ไม่มี",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
+    "702101": {
+      "id": "702101",
+      "name_TH": "การเงินในชีวิตประจำวัน",
+      "name_EN": "Finance for Daily Life",
+      "credits": "3(3-0-6)",
+      "desc_TH": "ความรู้เบื้องต้นของการบริหารการเงินในชีวิตประจำวัน การสร้างฐานะมั่นคงทางการเงิน การสำรวจสุขภาพทางการเงิน การวางแผนทางการเงิน การบริหารรายได้ รายจ่าย และภาระหนี้สิน บริการของสถาบันการเงิน การออมเงิน การให้เงินทำงาน การวางแผนการเงินสำหรับเหตุการณ์ของชีวิต การประกันความเสี่ยง การวางแผนภาษี และการเตรียมความพร้อมเพื่อความสุข",
+      "desc_EN": "Basic knowledge of financial management for daily life. Wealth creation. Financial health evaluation. Financial planning. Income, expenses and debt management. Financial institution services. Savings. Letting the money work for you. Financial planning for life events. Risk insurance. Tax planning. Preparing for happiness.",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "สำหรับนักศึกษานอกวิชาเอกการเงินและการธนาคาร",
+      "terms": {
+        "t1": true,
+        "t2": true
+      }
+    },
+    "751100": {
+      "id": "751100",
+      "name_TH": "เศรษฐศาสตร์ในชีวิตประจำวัน",
+      "name_EN": "Economics for Everyday Life",
+      "credits": "3(3-0-6)",
+      "desc_TH": "แนวคิดทางเศรษฐศาสตร์ที่นำไปใช้ในชีวิตประจำวัน ที่เกี่ยวข้องกับการผลิต การบริโภค ตลาด รายได้ประชาชาติ การคลังสาธารณะ การเงินและการธนาคาร ภาวะเงินเฟ้อและเงินฝืด การจ้างงาน เศรษฐกิจการค้าและการเงินระหว่างประเทศ การพัฒนาเศรษฐกิจและสิ่งแวดล้อม",
+      "desc_EN": "Basic economic concepts and application for everyday life concerning production, consumption, markets, national income, public finance, money and banking, inflation and deflation, employment, international trade and finance, and economic development and environment.",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "ไม่มี",
+      "terms": {
+        "t1": true,
+        "t2": true
+      }
+    },
+    "888107": {
+      "id": "888107",
+      "name_TH": "การเริ่มต้นธุรกิจบนดิจิทัลแพลตฟอร์ม",
+      "name_EN": "Business Startup on Digital Platform",
+      "credits": "3(3-0-6)",
+      "desc_TH": "การเปิดความคิดทางธุรกิจบนดิจิทัลแพลตฟอร์ม แรงจูงใจของผู้ก่อตั้งธุรกิจบนดิจิทัลแพลตฟอร์ม 7 เทคนิคสำหรับการออกแบบการเริ่มต้นธุรกิจบนดิจิทัลแพลตฟอร์ม การค้นพบความเป็นไปได้ทางธุรกิจบนดิจิทัลแพลตฟอร์ม แนวคิดของหน้าที่กับการปฏิบัติตามธรรมเนียม แนวคิดองค์ประกอบ ทัศนคติในการทำงาน การเริ่มต้นธุรกิจบนดิจิทัลแพลตฟอร์ม กลุ่มวิชาด้านทักษะความเข้าใจและการใช้เทคโนโลยีดิจิทัล หรือ กลุ่มวิชาด้านทักษะการเป็นพลเมืองโลก หรือ กลุ่มวิชาด้านทักษะการประยุกต์ใช้ปัญญาประดิษฐ์",
+      "desc_EN": "Opening up the business idea on digital platform. Founder’s motivation to startup business on digital platform. Seven techniques for startup design on digital platform. Discovering business potential on digital platform. “Function” versus “convention” concepts. Component concept. Working attitude. Startup execution on digital platform.",
+      "classification": "elective",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "ไม่มี",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    }
+  }
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CS Electives Course Tree - CMU CS Curriculum 2569</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sarabun:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Shared Top Navigation Header -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand-link">
+        <div class="brand-badge">CS</div>
+        <div class="brand-titles">
+          <span class="brand-title">CMU Computer Science</span>
+          <span class="brand-sub" data-th="หลักสูตร วท.บ. 2569" data-en="B.S. Curriculum 2026">หลักสูตร วท.บ. 2569</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li>
+            <a href="index.html" class="nav-link">
+              <span>📋</span>
+              <span data-th="ภาพรวมและเกณฑ์สำเร็จการศึกษา" data-en="Overview & Requirements">ภาพรวมและเกณฑ์สำเร็จการศึกษา</span>
+            </a>
+          </li>
+          <li>
+            <a href="map.html" class="nav-link">
+              <span>🗺️</span>
+              <span data-th="แผนที่หลักสูตร" data-en="Curriculum Map">แผนที่หลักสูตร</span>
+            </a>
+          </li>
+          <li>
+            <a href="tree.html" class="nav-link">
+              <span>🌳</span>
+              <span data-th="ผังวิชาเลือก (Electives Tree)" data-en="CS Electives Tree">ผังวิชาเลือก (Electives Tree)</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="lang-toggle-btn" class="lang-btn" title="Toggle Language">EN</button>
+        <button id="theme-toggle-btn" class="btn-icon" title="Toggle Dark/Light Mode">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Page Container -->
+  <main class="page-container">
+    <section class="page-header">
+      <div class="page-badge">
+        <span>🌳</span>
+        <span data-th="ผังวิชาเอกเลือกและวิชากำหนดก่อน" data-en="Electives Dependency Tree">ผังวิชาเอกเลือกและวิชากำหนดก่อน</span>
+      </div>
+      <h1 class="page-title" data-th="ผังวิชาเอกเลือก ว.คพ. (CS Electives Course Tree)" data-en="CS Electives Course Tree">ผังวิชาเอกเลือก ว.คพ. (CS Electives Course Tree)</h1>
+      <p class="page-subtitle" data-th="รายการวิชาเอกเลือก ว.คพ. แบ่งออกเป็นกลุ่มมุ่งเน้นโครงงาน (Project-oriented) และกลุ่มไม่มุ่งเน้นโครงงาน (Non-project) คลิกแต่ละวิชาเพื่อดูคำอธิบายรายวิชา เงื่อนไขวิชากำหนดก่อน และเทอมที่เปิดสอน" data-en="Catalog of CS Electives, categorized into Project-oriented and Non-project courses. Click any course to view description, official prerequisites, and offered semesters.">
+        รายการวิชาเอกเลือก ว.คพ. แบ่งออกเป็นกลุ่มมุ่งเน้นโครงงาน (Project-oriented) และกลุ่มไม่มุ่งเน้นโครงงาน (Non-project) คลิกแต่ละวิชาเพื่อดูคำอธิบายรายวิชา เงื่อนไขวิชากำหนดก่อน และเทอมที่เปิดสอน
+      </p>
+    </section>
+
+    <!-- Controls Bar -->
+    <section class="tree-controls-bar">
+      <!-- Search -->
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="tree-search-input" placeholder="ค้นหาด้วยรหัสวิชา, ชื่อวิชา..." data-placeholder-th="ค้นหาด้วยรหัสวิชา, ชื่อวิชา..." data-placeholder-en="Search by course code, title...">
+      </div>
+
+      <!-- Filters -->
+      <div class="filter-chips-group">
+        <button class="filter-chip-btn filter-level-btn active" data-level="all" data-th="ทุกระดับ" data-en="All Levels">ทุกระดับ</button>
+        <button class="filter-chip-btn filter-level-btn" data-level="300" data-th="ระดับ 300" data-en="300 Level">ระดับ 300</button>
+        <button class="filter-chip-btn filter-level-btn" data-level="400" data-th="ระดับ 400" data-en="400 Level">ระดับ 400</button>
+
+        <span style="border-left: 1px solid var(--border-medium); margin: 0 4px;"></span>
+
+        <button class="filter-chip-btn filter-term-btn active" data-term="all" data-th="ทุกเทอม" data-en="All Terms">ทุกเทอม</button>
+        <button class="filter-chip-btn filter-term-btn" data-term="t1" data-th="เปิดเทอม 1 (ปี 69)" data-en="Sem 1 (2026)">เปิดเทอม 1 (ปี 69)</button>
+        <button class="filter-chip-btn filter-term-btn" data-term="t2" data-th="เปิดเทอม 2 (ปี 69)" data-en="Sem 2 (2026)">เปิดเทอม 2 (ปี 69)</button>
+      </div>
+    </section>
+
+    <!-- Filterable List View (Default & Only View) -->
+    <div class="tree-list-view" id="tree-list-view">
+      <!-- Project Electives Section -->
+      <div>
+        <h2 class="tree-list-section-title">
+          <span>🛠️</span>
+          <span data-th="วิชาเอกเลือกมุ่งเน้นโครงงาน (Project-oriented Electives)" data-en="Project-oriented Electives">วิชาเอกเลือกมุ่งเน้นโครงงาน (Project-oriented Electives)</span>
+          <span class="list-badge-count" id="proj-count-badge">0 วิชา</span>
+        </h2>
+        <div class="tree-cards-list" id="list-project-courses">
+          <!-- Populated by tree.js -->
+        </div>
+      </div>
+
+      <!-- Non-Project Electives Section -->
+      <div>
+        <h2 class="tree-list-section-title">
+          <span>🔬</span>
+          <span data-th="วิชาเอกเลือกไม่มุ่งเน้นโครงงาน (Non-project Electives)" data-en="Non-project Electives">วิชาเอกเลือกไม่มุ่งเน้นโครงงาน (Non-project Electives)</span>
+          <span class="list-badge-count" id="nonproj-count-badge">0 วิชา</span>
+        </h2>
+        <div class="tree-cards-list" id="list-nonproject-courses">
+          <!-- Populated by tree.js -->
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Shared Inspector Drawer & Backdrop -->
+  <div id="drawer-backdrop" class="drawer-backdrop"></div>
+  <aside id="course-drawer" class="course-drawer" aria-hidden="true">
+    <div class="drawer-header">
+      <div>
+        <div id="drawer-course-id" class="drawer-code-badge">204111</div>
+        <div id="drawer-category-pill" class="meta-pill" style="display:inline-block;">วิชาแกน</div>
+      </div>
+      <button id="drawer-close-btn" class="drawer-close-btn" aria-label="Close">&times;</button>
+    </div>
+
+    <div class="drawer-body">
+      <div>
+        <h3 id="drawer-course-th" class="drawer-title-th">การเขียนโปรแกรมเบื้องต้น</h3>
+        <div id="drawer-course-en" class="drawer-title-en">Fundamentals of Programming</div>
+      </div>
+
+      <div class="drawer-meta-badges">
+        <span id="drawer-credits-pill" class="meta-pill">3(2-2-5)</span>
+        <span id="drawer-terms-pill" class="meta-pill offered-both">เปิดสอน: ภาคการศึกษา 1 และ 2 (ปี 2569)</span>
+      </div>
+
+      <div class="drawer-section">
+        <span class="drawer-section-title" data-th="เงื่อนไขที่ต้องผ่านก่อน (Official Prerequisite - MIS CMU)" data-en="Official Prerequisite (MIS CMU)">เงื่อนไขที่ต้องผ่านก่อน (Official Prerequisite - MIS CMU)</span>
+        <div class="drawer-box prereq-box">
+          <div id="drawer-prereq-str" style="font-weight:600; color:var(--text-primary);">None</div>
+          <div id="drawer-prereqs-tags" class="drawer-courses-taglist"></div>
+        </div>
+      </div>
+
+      <div class="drawer-section">
+        <span class="drawer-section-title" data-th="วิชาที่ต้องเรียนวิชานี้ก่อน (Post-requisites)" data-en="Dependent Post-requisites">วิชาที่ต้องเรียนวิชานี้ก่อน (Post-requisites)</span>
+        <div id="drawer-postreqs-tags" class="drawer-courses-taglist"></div>
+      </div>
+
+      <div class="drawer-section">
+        <span class="drawer-section-title" data-th="คำอธิบายลักษณะกระบวนวิชา (ภาษาไทย)" data-en="Course Description (Thai)">คำอธิบายลักษณะกระบวนวิชา (ภาษาไทย)</span>
+        <div id="drawer-desc-th" class="drawer-box" style="font-size:0.88rem; color:var(--text-secondary);"></div>
+      </div>
+
+      <div class="drawer-section">
+        <span class="drawer-section-title" data-th="Course Description (English)" data-en="Course Description (English)">Course Description (English)</span>
+        <div id="drawer-desc-en" class="drawer-box" style="font-size:0.88rem; color:var(--text-secondary);"></div>
+      </div>
+    </div>
+  </aside>
+
+  <script src="data/curriculum69_data.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/tree.js"></script>
+</body>
+</html>

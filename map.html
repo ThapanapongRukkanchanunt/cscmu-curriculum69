@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Map - CMU CS Curriculum 2569</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sarabun:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Shared Top Navigation Header -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand-link">
+        <div class="brand-badge">CS</div>
+        <div class="brand-titles">
+          <span class="brand-title">CMU Computer Science</span>
+          <span class="brand-sub" data-th="หลักสูตร วท.บ. 2569" data-en="B.S. Curriculum 2026">หลักสูตร วท.บ. 2569</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li>
+            <a href="index.html" class="nav-link">
+              <span>📋</span>
+              <span data-th="ภาพรวมและเกณฑ์สำเร็จการศึกษา" data-en="Overview & Requirements">ภาพรวมและเกณฑ์สำเร็จการศึกษา</span>
+            </a>
+          </li>
+          <li>
+            <a href="map.html" class="nav-link">
+              <span>🗺️</span>
+              <span data-th="แผนที่หลักสูตร" data-en="Curriculum Map">แผนที่หลักสูตร</span>
+            </a>
+          </li>
+          <li>
+            <a href="tree.html" class="nav-link">
+              <span>🌳</span>
+              <span data-th="ผังวิชาเลือก (Electives Tree)" data-en="CS Electives Tree">ผังวิชาเลือก (Electives Tree)</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="lang-toggle-btn" class="lang-btn" title="Toggle Language">EN</button>
+        <button id="theme-toggle-btn" class="btn-icon" title="Toggle Dark/Light Mode">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Page Container -->
+  <main class="page-container page-container-map">
+    <section class="page-header">
+      <div class="page-badge">
+        <span>🗺️</span>
+        <span data-th="ลำดับการเรียนและเงื่อนไขวิชา" data-en="Sequencing & Dependency Map">ลำดับการเรียนและเงื่อนไขวิชา</span>
+      </div>
+      <h1 class="page-title" data-th="แผนที่หลักสูตร (Curriculum Map)" data-en="Curriculum Map">แผนที่หลักสูตร (Curriculum Map)</h1>
+      <p class="page-subtitle" data-th="วางเมาส์เหนือรายวิชา (Hover) เพื่อดูวิชาที่ต้องเรียนก่อน (Prerequisites - สีเขียว) และวิชาต่อเนื่อง (Post-requisites - สีส้ม) คลิกรายวิชาเพื่อเปิดดูรายละเอียด" data-en="Hover over any course card to reveal its prerequisites (green) and dependent post-requisites (orange). Click any card to open the inspector panel.">
+        วางเมาส์เหนือรายวิชา (Hover) เพื่อดูวิชาที่ต้องเรียนก่อน (Prerequisites - สีเขียว) และวิชาต่อเนื่อง (Post-requisites - สีส้ม) คลิกรายวิชาเพื่อเปิดดูรายละเอียด
+      </p>
+    </section>
+
+    <!-- Controls & Legend Bar -->
+    <section class="map-controls-bar">
+      <!-- Plan Selector & English Score Selector -->
+      <div class="map-switchers-group">
+        <div class="switcher-options">
+          <button class="track-btn map-plan-btn active" data-plan="coop">
+            <span>🤝</span>
+            <span data-th="แผนสหกิจศึกษา (Co-op Plan)" data-en="Co-operative Education">แผนสหกิจศึกษา (Co-op Plan)</span>
+          </button>
+          <button class="track-btn map-plan-btn" data-plan="project">
+            <span>💻</span>
+            <span data-th="แผนมุ่งเน้นโครงงาน (Project Plan)" data-en="Project-oriented Plan">แผนมุ่งเน้นโครงงาน (Project Plan)</span>
+          </button>
+        </div>
+
+        <div class="switcher-options">
+          <button class="track-btn map-lang-score-btn active" data-score="below_b1">
+            <span>🎯</span>
+            <span data-th="e-Pro &lt; B1 (ไม่ถึง B1)" data-en="e-Pro &lt; B1 (Below B1)">e-Pro &lt; B1 (ไม่ถึง B1)</span>
+          </button>
+          <button class="track-btn map-lang-score-btn" data-score="b1_plus">
+            <span>🎯</span>
+            <span data-th="e-Pro &ge; B1 (B1+)" data-en="e-Pro &ge; B1 (B1+)">e-Pro &ge; B1 (B1+)</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Legend -->
+      <div class="legend-chips">
+        <span class="legend-chip">
+          <span class="legend-dot dot-core"></span>
+          <span data-th="วิชาแกน" data-en="Core">วิชาแกน</span>
+        </span>
+        <span class="legend-chip">
+          <span class="legend-dot dot-comp"></span>
+          <span data-th="วิชาเอกบังคับ" data-en="Compulsory">วิชาเอกบังคับ</span>
+        </span>
+        <span class="legend-chip">
+          <span class="legend-dot dot-pelec"></span>
+          <span data-th="วิชาเอกเลือก (เน้นโครงงาน)" data-en="Project Elective">วิชาเอกเลือก (เน้นโครงงาน)</span>
+        </span>
+        <span class="legend-chip">
+          <span class="legend-dot dot-gened"></span>
+          <span data-th="วิชาศึกษาทั่วไป / เสรี" data-en="GE / Free">วิชาศึกษาทั่วไป / เสรี</span>
+        </span>
+        <span class="legend-chip" style="margin-left: 0.5rem; border-left: 1px solid var(--border-medium); padding-left: 0.75rem;">
+          <span class="legend-dot dot-prereq"></span>
+          <span data-th="วิชาก่อนหน้า (Prereq)" data-en="Prerequisite">วิชาก่อนหน้า (Prereq)</span>
+        </span>
+        <span class="legend-chip">
+          <span class="legend-dot dot-postreq"></span>
+          <span data-th="วิชาต่อเนื่อง (Postreq)" data-en="Post-requisite">วิชาต่อเนื่อง (Postreq)</span>
+        </span>
+        <span class="legend-chip" style="margin-left: 0.5rem; border-left: 1px solid var(--border-medium); padding-left: 0.75rem;">
+          <span class="term-pill t1-pill" style="font-size:0.6rem; padding:0.1rem 0.35rem;">T1</span>
+          <span data-th="เปิดเทอม 1" data-en="Term 1">เปิดเทอม 1</span>
+        </span>
+        <span class="legend-chip">
+          <span class="term-pill t2-pill" style="font-size:0.6rem; padding:0.1rem 0.35rem;">T2</span>
+          <span data-th="เปิดเทอม 2" data-en="Term 2">เปิดเทอม 2</span>
+        </span>
+      </div>
+    </section>
+
+    <!-- Mobile Semester Navigation Tabs -->
+    <div class="mobile-sem-tabs">
+      <button class="sem-tab-btn active" data-sem="Y1S1">ปี 1 เทอม 1</button>
+      <button class="sem-tab-btn" data-sem="Y1S2">ปี 1 เทอม 2</button>
+      <button class="sem-tab-btn" data-sem="Y2S1">ปี 2 เทอม 1</button>
+      <button class="sem-tab-btn" data-sem="Y2S2">ปี 2 เทอม 2</button>
+      <button class="sem-tab-btn" data-sem="Y3S1">ปี 3 เทอม 1</button>
+      <button class="sem-tab-btn" data-sem="Y3S2">ปี 3 เทอม 2</button>
+      <button class="sem-tab-btn" data-sem="Y4S1">ปี 4 เทอม 1</button>
+      <button class="sem-tab-btn" data-sem="Y4S2">ปี 4 เทอม 2</button>
+    </div>
+
+    <!-- 8-Column Curriculum Grid -->
+    <div class="curriculum-map-wrapper">
+      <div class="curriculum-map-grid" id="curriculum-map-grid">
+        <!-- Rendered by map.js -->
+      </div>
+    </div>
+  </main>
+
+  <!-- Shared Inspector Drawer & Backdrop -->
+  <div id="drawer-backdrop" class="drawer-backdrop"></div>
+  <aside id="course-drawer" class="course-drawer" aria-hidden="true">
+    <div class="drawer-header">
+      <div>
+        <div id="drawer-course-id" class="drawer-code-badge">204111</div>
+        <div id="drawer-category-pill" class="meta-pill" style="display:inline-block;">วิชาแกน</div>
+      </div>
+      <button id="drawer-close-btn" class="drawer-close-btn" aria-label="Close">&times;</button>
+    </div>
+
+    <div class="drawer-body">
+      <div>
+        <h3 id="drawer-course-th" class="drawer-title-th">การเขียนโปรแกรมเบื้องต้น</h3>
+        <div id="drawer-course-en" class="drawer-title-en">Fundamentals of Programming</div>
+      </div>
+
+      <div class="drawer-meta-badges">
+        <span id="drawer-credits-pill" class="meta-pill">3(2-2-5)</span>
+        <span id="drawer-terms-pill" class="meta-pill offered-both">เปิดสอน: ภาคการศึกษา 1 และ 2 (ปี 2569)</span>
+      </div>
+
+      <div class="drawer-section">
+        <span class="drawer-section-title" data-th="เงื่อนไขที่ต้องผ่านก่อน (Official Prerequisite - MIS CMU)" data-en="Official Prerequisite (MIS CMU)">เงื่อนไขที่ต้องผ่านก่อน (Official Prerequisite - MIS CMU)</span>
+        <div class="drawer-box prereq-box">
+          <div id="drawer-prereq-str" style="font-weight:600; color:var(--text-primary);">None</div>
+          <div id="drawer-prereqs-tags" class="drawer-courses-taglist"></div>
+        </div>
+      </div>
+
+      <div class="drawer-section">
+        <span class="drawer-section-title" data-th="วิชาที่ต้องเรียนวิชานี้ก่อน (Post-requisites)" data-en="Dependent Post-requisites">วิชาที่ต้องเรียนวิชานี้ก่อน (Post-requisites)</span>
+        <div id="drawer-postreqs-tags" class="drawer-courses-taglist"></div>
+      </div>
+
+      <div class="drawer-section">
+        <span class="drawer-section-title" data-th="คำอธิบายลักษณะกระบวนวิชา (ภาษาไทย)" data-en="Course Description (Thai)">คำอธิบายลักษณะกระบวนวิชา (ภาษาไทย)</span>
+        <div id="drawer-desc-th" class="drawer-box" style="font-size:0.88rem; color:var(--text-secondary);"></div>
+      </div>
+
+      <div class="drawer-section">
+        <span class="drawer-section-title" data-th="Course Description (English)" data-en="Course Description (English)">Course Description (English)</span>
+        <div id="drawer-desc-en" class="drawer-box" style="font-size:0.88rem; color:var(--text-secondary);"></div>
+      </div>
+    </div>
+  </aside>
+
+  <script src="data/curriculum69_data.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/map.js"></script>
+</body>
+</html>
