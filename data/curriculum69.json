@@ -2106,6 +2106,24 @@
         "t2": false
       }
     },
+    "204342": {
+      "id": "204342",
+      "name_TH": "การป้องกันศาสตร์มืดในโลกไซเบอร์",
+      "name_EN": "Cyber Defense Against the Dark Arts",
+      "credits": "3(3-0-6)",
+      "desc_TH": "บทนำสู่ความมั่นคงของซอฟต์แวร์ ช่องโหว่ด้านหน่วยความจำ การโจมตีผ่านเว็บและอินพุต วิศวกรรมซอฟต์แวร์อย่างมั่นคงปลอดภัย การยืนยันตัวตนและการควบคุมสิทธิ์ การใช้ประโยชน์จากโค้ดระดับไบนารีและย้อนรอยซอฟต์แวร์ การโจมตีผ่านห่วงโซ่อุปทานซอฟต์แวร์ มัลแวร์และไวรัส หัวข้อขั้นสูงและกรณีศึกษา",
+      "desc_EN": "Introduction to software security, memory safety vulnerabilities, web and input-based attacks, secure software engineering practices, authentication access control and secrets management, binary code exploitation and reverse engineering, software supply chain and dependency attacks, malware and viruses, advanced topics and real-world case studies.",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "204341"
+      ],
+      "official_prereq": "204341 or 261305",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
     "204355": {
       "id": "204355",
       "name_TH": "การเขียนโปรแกรมเชิงแข่งขัน",
@@ -2238,6 +2256,25 @@
         "t2": false
       }
     },
+    "204372": {
+      "id": "204372",
+      "name_TH": "ปัญญาประดิษฐ์เชิงสร้างสรรค์และโมเดลภาษาขนาดใหญ่",
+      "name_EN": "Generative Artificial Intelligence and Large Language Model",
+      "credits": "3(3-0-6)",
+      "desc_TH": "บทนำปัญญาประดิษฐ์เชิงสร้างสรรค์และโมเดลภาษาขนาดใหญ่ วิศวกรรมคำสั่งและการปรับจูนโมเดล การประเมินผลโมเดลและเกณฑ์ชี้วัด การค้นคืนข้อมูลและระบบการเสริมข้อมูลจากการค้นหาข้อมูลภายนอก ความสามารถมัลติโหมดและการใช้เครื่องมือ โปรโตคอลบริบทของโมเดล ปัญญาประดิษฐ์แบบเอเจนต์และการพัฒนาแอปพลิเคชันปัญญาประดิษฐ์ ความปลอดภัยและจริยธรรม โมเดลสร้างรูป เสียง และวิดีโอ การให้เหตุผลในโมเดลภาษาขนาดใหญ่ ผลกระทบต่อสังคมและแนวโน้มอนาคต",
+      "desc_EN": "Introduction to generative artificial intelligence and large language model. Prompt engineering and fine-tuning. Evaluation and metrics for generative artificial intelligence models. Information retrieval and retrieval-augmented generation. Multimodal models and tool-calling. Model context protocol. Agentic artificial intelligence and development of artificial intelligence applications. Safety and ethics. Image, audio, and video generation models. Reasoning in large language models. Societal impacts and future trends.",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [
+        "204212",
+        "204271"
+      ],
+      "official_prereq": "204212 and 204271",
+      "terms": {
+        "t1": false,
+        "t2": true
+      }
+    },
     "204381": {
       "id": "204381",
       "name_TH": "การคำนวณเชิงตัวเลขและซอฟต์แวร์",
@@ -2304,6 +2341,22 @@
       "terms": {
         "t1": true,
         "t2": false
+      }
+    },
+    "204415": {
+      "id": "204415",
+      "name_TH": "เทคโนโลยีเอนจินเกมสมัยใหม่",
+      "name_EN": "Modern Game Engine Technology",
+      "credits": "3(2-3-4)",
+      "desc_TH": "บทนำสู่การพัฒนาเกมขั้นสูง บทนำเกี่ยวกับเอนจินเกม ทรัพย์สินศิลป์ในเอนจินเกม การสร้างโมเดลเรขาคณิตในเอนจินเกม วิธีการออกแบบเกม ระบบเรนเดอร์ในเอนจินเกม ปัญญาประดิษฐ์ที่สมจริงในเอนจินเกม การจำลองฟิสิกส์ในเอนจินเกม กระบวนการทำงานของแอนิเมชันในเอนจินเกม เรย์เทรซซิ่งแบบเรียลไทม์ หัวข้อขั้นสูงในการพัฒนาเกม",
+      "desc_EN": "Introduction to advanced game development. Introduction to game engine. Art assets in game engine. Geometric modelling in game engine. Game design methodologies. Rendering subsystem in game engine. Believable artificial intelligence entities in game engine. Physics simulation in game engine. Animation workflow in game engine. Real-time ray tracing. Advanced topics in game development.",
+      "classification": "non-project-elective",
+      "is_project_based": false,
+      "prerequisites": [],
+      "official_prereq": "consent of the department",
+      "terms": {
+        "t1": false,
+        "t2": true
       }
     },
     "204422": {
