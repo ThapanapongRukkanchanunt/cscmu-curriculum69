@@ -208,15 +208,13 @@ function renderCurriculumMap(data) {
           otherCard.classList.add('is-prereq');
         } else if (postreqs.has(otherId)) {
           otherCard.classList.add('is-postreq');
-        } else {
-          otherCard.classList.add('is-dimmed');
         }
       });
     });
 
     card.addEventListener('mouseleave', () => {
       allCards.forEach(otherCard => {
-        otherCard.classList.remove('is-active', 'is-prereq', 'is-postreq', 'is-dimmed');
+        otherCard.classList.remove('is-active', 'is-prereq', 'is-postreq');
       });
     });
 

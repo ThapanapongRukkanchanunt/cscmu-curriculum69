@@ -940,7 +940,7 @@ a:hover {
   padding: 0.4rem 0.35rem 0.4rem 0.5rem;
   cursor: pointer;
   position: relative;
-  transition: background-color 0.15s ease, border-color 0.15s ease, opacity 0.15s ease;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
   user-select: none;
   display: flex;
   flex-direction: column;
@@ -1095,10 +1095,6 @@ a:hover {
   color: #FED7AA;
 }
 
-.map-course-card.is-dimmed {
-  opacity: 0.25;
-  filter: grayscale(80%);
-}
 
 /* ==========================================================================
    Page 3: CS Electives Course Tree (Canvas & Mobile List)
