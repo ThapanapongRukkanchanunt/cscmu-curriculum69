@@ -25,7 +25,7 @@ window.CURRICULUM_DATA = {
             "name_TH": "วิชาแกน",
             "name_EN": "Core Courses",
             "credits": 25,
-            "note": "Bio, Phys/Chem, Math 111, Math 183, Stat 269, CS 100, CS 111, CS 115, CS 255"
+            "note": "Bio 101, Phys 187, Math 111, Math 183, Stat 269, CS 111, CS 115, CS 255"
           },
           {
             "id": "compulsory_shared",
@@ -82,7 +82,7 @@ window.CURRICULUM_DATA = {
             "name_TH": "วิชาแกน",
             "name_EN": "Core Courses",
             "credits": 25,
-            "note": "Bio, Phys/Chem, Math 111, Math 183, Stat 269, CS 100, CS 111, CS 115, CS 255"
+            "note": "Bio 101, Phys 187, Math 111, Math 183, Stat 269, CS 111, CS 115, CS 255"
           },
           {
             "id": "compulsory_shared",
@@ -132,7 +132,7 @@ window.CURRICULUM_DATA = {
             "name_TH": "วิชาแกน",
             "name_EN": "Core Courses",
             "credits": 25,
-            "note": "Bio, Phys/Chem, Math 111, Math 183, Stat 269, CS 100, CS 111, CS 115, CS 255"
+            "note": "Bio 101, Phys 187, Math 111, Math 183, Stat 269, CS 111, CS 115, CS 255"
           },
           {
             "id": "compulsory_shared",
@@ -182,7 +182,7 @@ window.CURRICULUM_DATA = {
             "name_TH": "วิชาแกน",
             "name_EN": "Core Courses",
             "credits": 25,
-            "note": "Bio, Phys/Chem, Math 111, Math 183, Stat 269, CS 100, CS 111, CS 115, CS 255"
+            "note": "Bio 101, Phys 187, Math 111, Math 183, Stat 269, CS 111, CS 115, CS 255"
           },
           {
             "id": "compulsory_shared",
@@ -496,12 +496,6 @@ window.CURRICULUM_DATA = {
           "id": "202101",
           "name_TH": "ชีววิทยาพื้นฐาน 1",
           "name_EN": "Basic Biology 1",
-          "credits": "3(3-0-6)"
-        },
-        {
-          "id": "204100",
-          "name_TH": "เรื่องน่ารู้ทางปัญญาประดิษฐ์และดิจิทัล",
-          "name_EN": "Artificial Intelligence and Digital Essentials",
           "credits": "3(3-0-6)"
         },
         {
@@ -1389,14 +1383,15 @@ window.CURRICULUM_DATA = {
       "credits": "3(3-0-6)",
       "desc_TH": "การสื่อสารภาษาอังกฤษเพื่อการปฏิสัมพันธ์ในชีวิตประจำวันตามมาตรฐาน CEFR ระดับ B1+ ในบริบททางสังคมและวัฒนธรรมที่หลากหลายเพื่อการเรียนรู้ตลอดชีวิต",
       "desc_EN": "Communication in English for everyday interactions based on CEFR B1+ in various social and cultural contexts for life-long learning",
-      "classification": "elective",
+      "classification": "gened",
       "is_project_based": false,
       "prerequisites": [],
       "official_prereq": "ไม่มี",
       "terms": {
         "t1": true,
         "t2": false
-      }
+      },
+      "category": "gened"
     },
     "001102": {
       "id": "001102",
@@ -1405,14 +1400,15 @@ window.CURRICULUM_DATA = {
       "credits": "3(3-0-6)",
       "desc_TH": "การสื่อสารภาษาอังกฤษเพื่อการปฏิสัมพันธ์ในชีวิตประจำวันตามมาตรฐาน CEFR ระดับ B1+ ในบริบททางสังคมและวัฒนธรรมที่หลากหลายเพื่อการเรียนรู้ตลอดชีวิต",
       "desc_EN": "Communication in English for everyday interactions based on CEFR B1+ in various social and cultural contexts for life-long learning",
-      "classification": "elective",
+      "classification": "gened",
       "is_project_based": false,
       "prerequisites": [],
       "official_prereq": "ไม่มี",
       "terms": {
         "t1": false,
         "t2": true
-      }
+      },
+      "category": "gened"
     },
     "001201": {
       "id": "001201",
@@ -1440,7 +1436,7 @@ window.CURRICULUM_DATA = {
       "credits": "3(3-0-6)",
       "desc_TH": "การสื่อสารโดยใช้ภาษาอังกฤษในชีวิตประจำวันในบริบทวิทยาศาสตร์และเทคโนโลยีและการประยุกต์ใช้ทักษะภาษาอังกฤษในการประกอบอาชีพที่เกี่ยวข้องกับวิทยาศาสตร์และเทคโนโลยี",
       "desc_EN": "Communication in English in daily life in science and technology contexts and application of English language skills for careers in science and technology",
-      "classification": "elective",
+      "classification": "gened",
       "is_project_based": false,
       "prerequisites": [
         "001101",
@@ -1450,7 +1446,8 @@ window.CURRICULUM_DATA = {
       "terms": {
         "t1": true,
         "t2": false
-      }
+      },
+      "category": "gened"
     },
     "001233": {
       "id": "001233",
@@ -1542,14 +1539,15 @@ window.CURRICULUM_DATA = {
       "credits": "3(3-0-6)",
       "desc_TH": "ความหมาย นิยาม และแนวคิดเกี่ยวกับการเป็นพลเมือง การสร้างความตระหนักถึงปัญหารอบตัว ทั้งในระดับท้องถิ่น ระดับประเทศ และระดับนานาชาติ การเป็นพลเมืองกับการเรียนรู้และการดำรงตนในพหุวัฒนธรรมและความหลากหลายทางสังคม การสร้างทัศนคติเชิงบวกเพื่อการแก้ไขปัญหาความขัดแย้งด้วยสันติวิธี การแสดงออกทางการเมืองในศตวรรษที่ 21 กลุ่มวิชาด้านทักษะการคิดสร้างสรรค์และนวัตกรรม",
       "desc_EN": "Meanings, definitions, and concepts involving citizenship. Creating awareness in surrounding problems at the local level, national level, and international level. Citizenship and learning, and existence in multicultural society and social diversity. Cultivation of positive attitude for peaceful conflict resolution. Political expression in the 21st century.",
-      "classification": "elective",
+      "classification": "gened",
       "is_project_based": false,
       "prerequisites": [],
       "official_prereq": "ไม่มี",
       "terms": {
         "t1": true,
         "t2": false
-      }
+      },
+      "category": "gened"
     },
     "201111": {
       "id": "201111",
@@ -1558,14 +1556,15 @@ window.CURRICULUM_DATA = {
       "credits": "3(3-0-6)",
       "desc_TH": "บทนำ ความหมายของวิทยาศาสตร์ เทคโนโลยี และนวัตกรรม ประวัติของวิทยาศาสตร์ เทคโนโลยี และนวัตกรรม กระบวนการทางวิทยาศาสตร์ กิจกรรมกลุ่มเกี่ยวกับวิทยาศาสตร์และเทคโนโลยีในชีวิตประจำวัน วิทยาศาสตร์และเทคโนโลยีกับการพัฒนาประเทศ วิทยาศาสตร์และเทคโนโลยีกับเศรษฐกิจ วิทยาศาสตร์และเทคโนโลยีกับสังคม วิทยาศาสตร์และเทคโนโลยีกับสิ่งแวดล้อม วิทยาศาสตร์และเทคโนโลยีกับวัฒนธรรม วิทยาศาสตร์และเทคโนโลยีกับชุมชนท้องถิ่น วิทยาศาสตร์และเทคโนโลยีกับการเปลี่ยนแปลงสภาพภูมิอากาศ วิทยาศาสตร์และเทคโนโลยีกับการพัฒนาที่ยั่งยืน หรือหัวข้ออื่นๆ ตามความสนใจของนักศึกษา และการนำเสนอในห้องเรียน",
       "desc_EN": "Introduction, Meaning and history of science, technology and innovation, Scientific method, Group activities about science and technology in daily life, science and technology and country development, economy, society, environment, culture, local communities, climate change, sustainable development, or other topics depending on students’ interests, and class presentations.",
-      "classification": "elective",
+      "classification": "gened",
       "is_project_based": false,
       "prerequisites": [],
       "official_prereq": "ไม่มี",
       "terms": {
         "t1": true,
         "t2": true
-      }
+      },
+      "category": "gened"
     },
     "201114": {
       "id": "201114",
@@ -1574,14 +1573,15 @@ window.CURRICULUM_DATA = {
       "credits": "3(3-0-6)",
       "desc_TH": "สิ่งแวดล้อมและผลกระทบจากกิจกรรมของมนุษย์ ความตระหนักเรื่องสิ่งแวดล้อมในเวทีนานาชาติ ความสำคัญของความหลากหลายทางชีวภาพ; การอนุรักษ์เพื่ออนาคต การใช้ทรัพยากร การเติบโตของประชากรและมลพิษ การแตกตัวของโอโซน ภาวะโลกร้อนและการเปลี่ยนแปลงสภาพภูมิอากาศ วิกฤติพลังงาน การพัฒนาอย่างยั่งยืนเพื่อรักษาสมดุลในการบริโภคทรัพยากรธรรมชาติและการทดแทน สถานการณ์สิ่งแวดล้อมปัจจุบัน",
       "desc_EN": "Environment and impacts from anthropogenic activities, Environmental concerns in international venues, Importance of biodiversity; conservation for the future, Resource use, Population growth and pollution, Ozone depletion, Global warming and climate change, Energy crisis, Sustainable development (balancing of natural resource consumption and replacement), and Current environmental issues.",
-      "classification": "elective",
+      "classification": "gened",
       "is_project_based": false,
       "prerequisites": [],
       "official_prereq": "ไม่มี",
       "terms": {
         "t1": true,
         "t2": false
-      }
+      },
+      "category": "gened"
     },
     "201116": {
       "id": "201116",
@@ -1590,14 +1590,15 @@ window.CURRICULUM_DATA = {
       "credits": "3(3-0-6)",
       "desc_TH": "แก๊สเรือนกระจกและปรากฏการณ์เรือนกระจก ภาวะโลกร้อนและผลกระทบ นโยบาย นวัตกรรม และการปฏิบัติเพื่อรับมือภาวะโลกร้อนและภัยธรรมชาติ บรรยากาศ พลังงานและการถ่ายโอนพลังงานความร้อนในอากาศและมหาสมุทร สภาพอากาศและการคาดการณ์ภูมิอากาศ การปรับตัวและการลดผลกระทบจากการเปลี่ยนแปลงสภาพภูมิอากาศ",
       "desc_EN": "Greenhouse gases and greenhouse effect, global warming and its impact, policy, innovation and conduct for coping global warming and natural disaster, atmosphere, energy and heat transfer in air and ocean, weather and climate projection, climate change adaptation and mitigation.",
-      "classification": "elective",
+      "classification": "gened",
       "is_project_based": false,
       "prerequisites": [],
       "official_prereq": "ไม่มี",
       "terms": {
         "t1": true,
         "t2": false
-      }
+      },
+      "category": "gened"
     },
     "201190": {
       "id": "201190",
@@ -1606,14 +1607,15 @@ window.CURRICULUM_DATA = {
       "credits": "3(3-0-6)",
       "desc_TH": "และการสื่อสารทางวิทยาศาสตร์ การคิดอย่างมีวิจารณญาณ การแก้ปัญหาทางวิทยาศาสตร์และเทคโนโลยี การสื่อสารทางวิทยาศาสตร์และเทคโนโลยี",
       "desc_EN": "Critical thinking, problem solving in science and technology, communication in science and technology.",
-      "classification": "elective",
+      "classification": "gened",
       "is_project_based": false,
       "prerequisites": [],
       "official_prereq": "ไม่มี",
       "terms": {
         "t1": true,
         "t2": true
-      }
+      },
+      "category": "gened"
     },
     "202101": {
       "id": "202101",
@@ -1622,14 +1624,15 @@ window.CURRICULUM_DATA = {
       "credits": "3(3-0-6)",
       "desc_TH": "บทนำ ระเบียบวิธีการทางวิทยาศาสตร์ ลักษณะเฉพาะของสิ่งมีชีวิต การจัดระบบสิ่งมีชีวิต สารเคมีของสิ่งมีชีวิต เซลล์และเมแทบอลิซึม พันธุศาสตร์และอณูพันธุศาสตร์ กลไกของวิวัฒนาการ ความหลากหลายของสิ่งมีชีวิต โครงสร้างและหน้าที่ของพืช โครงสร้างและหน้าที่ของสัตว์ และนิเวศวิทยาและพฤติกรรม",
       "desc_EN": "Introduction, scientific methods, characteristics of life, biological level of organization, chemical of life, cell and metabolism, genetics and molecular genetics, mechanism of evolution, diversity of life, structure and function of plant, structure and function of animal and ecology and behavior.",
-      "classification": "elective",
+      "classification": "core",
       "is_project_based": false,
       "prerequisites": [],
       "official_prereq": "ไม่มี",
       "terms": {
         "t1": false,
         "t2": true
-      }
+      },
+      "category": "core"
     },
     "204100": {
       "id": "204100",
@@ -1638,14 +1641,15 @@ window.CURRICULUM_DATA = {
       "credits": "3(3-0-6)",
       "desc_TH": "คอมพิวเตอร์กับการใช้งานในชีวิตประจำวัน เครือข่ายคอมพิวเตอร์และอินเทอร์เน็ต องค์ประกอบสำคัญของการออนไลน์ การทำงานร่วมกันแบบออนไลน์ ซอฟต์แวร์ช่วยเพิ่มประสิทธิผลในสำนักงานสำหรับชีวิตสมัยใหม่ ความปลอดภัยทางเทคโนโลยีสารสนเทศ การรู้สารสนเทศ ความรู้พื้นฐานปัญญาประดิษฐ์แบบรู้สร้าง เครื่องมือปัญญาประดิษฐ์",
       "desc_EN": "Computer in everyday life, computer network and internet, online essentials, online collaboration, office productivity software for modern life, information technology security, information literacy, basic knowledge of generative artificial intelligence, and artificial intelligence tools.",
-      "classification": "other",
+      "classification": "gened",
       "is_project_based": false,
       "prerequisites": [],
       "official_prereq": "None",
       "terms": {
         "t1": true,
         "t2": true
-      }
+      },
+      "category": "gened"
     },
     "204101": {
       "id": "204101",
@@ -1693,7 +1697,8 @@ window.CURRICULUM_DATA = {
       "terms": {
         "t1": true,
         "t2": false
-      }
+      },
+      "category": "core"
     },
     "204115": {
       "id": "204115",
@@ -1711,7 +1716,8 @@ window.CURRICULUM_DATA = {
       "terms": {
         "t1": false,
         "t2": true
-      }
+      },
+      "category": "core"
     },
     "204123": {
       "id": "204123",
@@ -1736,14 +1742,15 @@ window.CURRICULUM_DATA = {
       "credits": "3(3-0-6)",
       "desc_TH": "ปัญญาประดิษฐ์เบื้องต้น โครงสร้างการทำงานของปัญญาประดิษฐ์ ปัญญาประดิษฐ์ในชีวิตประจำวัน ปัญญาประดิษฐ์ในบ้านอัจฉริยะ ปัญญาประดิษฐ์ในเมืองอัจฉริยะ ปัญญาประดิษฐ์ในการบันเทิงและมัลติมีเดีย ปัญญาประดิษฐ์ในภาษาศาสตร์ ปัญญาประดิษฐ์ในการเงินและชีวิตการทำงาน ปัญญาประดิษฐ์ในบริการด้านการแพทย์ ปัญญาประดิษฐ์ในการเกษตร แนวโน้ม ผลกระทบ และประเด็นทางจริยธรรมของปัญญาประดิษฐ์",
       "desc_EN": "Introduction to artificial intelligence, working framework of artificial intelligence, artificial intelligence in daily life, artificial intelligence in smart home, artificial intelligence in smart city, artificial intelligence in entertainment and multimedia, artificial intelligence in linguistics, artificial intelligence in finance and working life, artificial intelligence in medical service, artificial intelligence in agriculture, trends, influence, and ethical issues of artificial intelligence",
-      "classification": "other",
+      "classification": "gened",
       "is_project_based": false,
       "prerequisites": [],
       "official_prereq": "None",
       "terms": {
         "t1": true,
         "t2": true
-      }
+      },
+      "category": "gened"
     },
     "204202": {
       "id": "204202",
@@ -1777,7 +1784,8 @@ window.CURRICULUM_DATA = {
       "terms": {
         "t1": false,
         "t2": true
-      }
+      },
+      "category": "compulsory"
     },
     "204215": {
       "id": "204215",
@@ -1855,7 +1863,8 @@ window.CURRICULUM_DATA = {
       "terms": {
         "t1": true,
         "t2": false
-      }
+      },
+      "category": "compulsory"
     },
     "204232": {
       "id": "204232",
@@ -1873,7 +1882,8 @@ window.CURRICULUM_DATA = {
       "terms": {
         "t1": false,
         "t2": true
-      }
+      },
+      "category": "compulsory"
     },
     "204255": {
       "id": "204255",
@@ -1892,7 +1902,8 @@ window.CURRICULUM_DATA = {
       "terms": {
         "t1": false,
         "t2": false
-      }
+      },
+      "category": "core"
     },
     "204271": {
       "id": "204271",
@@ -1912,7 +1923,8 @@ window.CURRICULUM_DATA = {
       "terms": {
         "t1": false,
         "t2": true
-      }
+      },
+      "category": "compulsory"
     },
     "204306": {
       "id": "204306",
@@ -1928,7 +1940,8 @@ window.CURRICULUM_DATA = {
       "terms": {
         "t1": false,
         "t2": true
-      }
+      },
+      "category": "compulsory"
     },
     "204311": {
       "id": "204311",
@@ -1986,7 +1999,8 @@ window.CURRICULUM_DATA = {
       "terms": {
         "t1": false,
         "t2": true
-      }
+      },
+      "category": "compulsory"
     },
     "204321": {
       "id": "204321",
@@ -2004,7 +2018,8 @@ window.CURRICULUM_DATA = {
       "terms": {
         "t1": true,
         "t2": false
-      }
+      },
+      "category": "compulsory"
     },
     "204322": {
       "id": "204322",
@@ -2158,7 +2173,8 @@ window.CURRICULUM_DATA = {
       "terms": {
         "t1": true,
         "t2": false
-      }
+      },
+      "category": "compulsory"
     },
     "204362": {
       "id": "204362",
@@ -2564,7 +2580,8 @@ window.CURRICULUM_DATA = {
       "terms": {
         "t1": true,
         "t2": false
-      }
+      },
+      "category": "compulsory"
     },
     "204452": {
       "id": "204452",
@@ -2836,7 +2853,8 @@ window.CURRICULUM_DATA = {
       "terms": {
         "t1": true,
         "t2": false
-      }
+      },
+      "category": "compulsory"
     },
     "204497": {
       "id": "204497",
@@ -2852,7 +2870,8 @@ window.CURRICULUM_DATA = {
       "terms": {
         "t1": false,
         "t2": true
-      }
+      },
+      "category": "compulsory"
     },
     "206111": {
       "id": "206111",
@@ -2861,14 +2880,15 @@ window.CURRICULUM_DATA = {
       "credits": "3(3-0-6)",
       "desc_TH": "อนุพันธ์และการประยุกต์ การหาปริพันธ์และการประยุกต์ สมการเชิงอนุพันธ์อันดับหนึ่งและการประยุกต์",
       "desc_EN": "Derivatives and applications, integration and applications, and first-order differential equations and some applications.",
-      "classification": "compulsory",
+      "classification": "core",
       "is_project_based": false,
       "prerequisites": [],
       "official_prereq": "None",
       "terms": {
         "t1": true,
         "t2": true
-      }
+      },
+      "category": "core"
     },
     "206112": {
       "id": "206112",
@@ -2895,14 +2915,15 @@ window.CURRICULUM_DATA = {
       "credits": "3(3-0-6)",
       "desc_TH": "เซต ตรรกศาสตร์เชิงประพจน์และการพิสูจน์ การอุปนัยเชิงคณิตศาสตร์และการเวียนเกิด ทฤษฎีจำนวนพื้นฐาน ความสัมพันธ์และฟังก์ชัน การนับพื้นฐาน สัมประสิทธิ์ทวินาม",
       "desc_EN": "Sets, propositional logics and proofs, mathematical induction and recursions, basic number theory, relations and functions, basic counting, binomial coefficients.",
-      "classification": "compulsory",
+      "classification": "core",
       "is_project_based": false,
       "prerequisites": [],
       "official_prereq": "None",
       "terms": {
         "t1": true,
         "t2": false
-      }
+      },
+      "category": "core"
     },
     "206324": {
       "id": "206324",
@@ -2922,7 +2943,8 @@ window.CURRICULUM_DATA = {
       "terms": {
         "t1": false,
         "t2": true
-      }
+      },
+      "category": "compulsory"
     },
     "206336": {
       "id": "206336",
@@ -3043,14 +3065,15 @@ window.CURRICULUM_DATA = {
       "credits": "3(3-0-6)",
       "desc_TH": "หน่วยและการวัด กลศาสตร์ การสั่น คลื่น และเสียง ของไหล อุณหพลศาสตร์ ไฟฟ้า สนามไฟฟ้า สภาวะแม่เหล็กและสนามแม่เหล็ก ทัศนศาสตร์ และฟิสิกส์ยุคใหม่",
       "desc_EN": "Dimension and measurement, mechanics, vibrations, wave and sound, fluid, thermodynamics, electricity, electric field, magnetism and magnetic field, optics and modern physics.",
-      "classification": "elective",
+      "classification": "core",
       "is_project_based": false,
       "prerequisites": [],
       "official_prereq": "ไม่มี",
       "terms": {
         "t1": false,
         "t2": true
-      }
+      },
+      "category": "core"
     },
     "208269": {
       "id": "208269",
@@ -3059,14 +3082,15 @@ window.CURRICULUM_DATA = {
       "credits": "3(3-0-6)",
       "desc_TH": "ความรู้พื้นฐานเกี่ยวกับสถิติ ตัวแปรสุ่มและการแจกแจงความน่าจะเป็นของตัวแปรสุ่ม การแจกแจงความน่าจะเป็นของตัวแปรสุ่มไม่ต่อเนื่อง การแจกแจงความน่าจะเป็นของตัวแปรสุ่มต่อเนื่อง สถิติเชิงอนุมาน การทดสอบภาวะสารูปดีและการทดสอบความเป็นอิสระ การวิเคราะห์ความแปรปรวน สหสัมพันธ์และการวิเคราะห์การถดถอย",
       "desc_EN": "Basic statistical knowledge, random variables and probability distributions, probability distribution of discrete random variables, probability distribution of continuous random variables, inferential statistics, goodness of fit test and independence test, analysis of variance, and correlation and regression analysis.",
-      "classification": "compulsory",
+      "classification": "core",
       "is_project_based": false,
       "prerequisites": [],
       "official_prereq": "None",
       "terms": {
         "t1": true,
         "t2": false
-      }
+      },
+      "category": "core"
     },
     "271111": {
       "id": "271111",
@@ -3075,14 +3099,15 @@ window.CURRICULUM_DATA = {
       "credits": "3(3-0-6)",
       "desc_TH": "ประวัติของหุ่นยนต์และอุตสาหกรรมหุ่นยนต์ ภาพรวมของเทคโนโลยีหุ่นยนต์ การจำแนกประเภทของหุ่นยนต์ ส่วนประกอบและลักษณะของหุ่นยนต์ แนวคิดในการพัฒนาหุ่นยนต์ การประยุกต์หุ่นยนต์ ผลกระทบของหุ่นยนต์ต่อการดำรงชีวิตในสังคมโลก ผลกระทบของหุ่นยนต์ต่ออุตสาหกรรมโลก แนวโน้มการวิจัยและพัฒนาหุ่นยนต์ กรณีศึกษาหุ่นยนต์ในประเทศไทย กลุ่มวิชาด้านทักษะการเป็นผู้ประกอบการ",
       "desc_EN": "History of robotics and robotics industry. Overview of robotics technology. Classification of robots. Components and characteristics of robots. Concept of robotics development. Robotics applications. Effects of robotics in a global living society. Effects of robotics in global industry. Trends in robotics research and development. Case studies of robotics in Thailand.",
-      "classification": "elective",
+      "classification": "gened",
       "is_project_based": false,
       "prerequisites": [],
       "official_prereq": "ไม่มี",
       "terms": {
         "t1": false,
         "t2": true
-      }
+      },
+      "category": "gened"
     },
     "702101": {
       "id": "702101",
@@ -3091,14 +3116,15 @@ window.CURRICULUM_DATA = {
       "credits": "3(3-0-6)",
       "desc_TH": "ความรู้เบื้องต้นของการบริหารการเงินในชีวิตประจำวัน การสร้างฐานะมั่นคงทางการเงิน การสำรวจสุขภาพทางการเงิน การวางแผนทางการเงิน การบริหารรายได้ รายจ่าย และภาระหนี้สิน บริการของสถาบันการเงิน การออมเงิน การให้เงินทำงาน การวางแผนการเงินสำหรับเหตุการณ์ของชีวิต การประกันความเสี่ยง การวางแผนภาษี และการเตรียมความพร้อมเพื่อความสุข",
       "desc_EN": "Basic knowledge of financial management for daily life. Wealth creation. Financial health evaluation. Financial planning. Income, expenses and debt management. Financial institution services. Savings. Letting the money work for you. Financial planning for life events. Risk insurance. Tax planning. Preparing for happiness.",
-      "classification": "elective",
+      "classification": "gened",
       "is_project_based": false,
       "prerequisites": [],
       "official_prereq": "สำหรับนักศึกษานอกวิชาเอกการเงินและการธนาคาร",
       "terms": {
         "t1": true,
         "t2": true
-      }
+      },
+      "category": "gened"
     },
     "751100": {
       "id": "751100",
@@ -3107,14 +3133,15 @@ window.CURRICULUM_DATA = {
       "credits": "3(3-0-6)",
       "desc_TH": "แนวคิดทางเศรษฐศาสตร์ที่นำไปใช้ในชีวิตประจำวัน ที่เกี่ยวข้องกับการผลิต การบริโภค ตลาด รายได้ประชาชาติ การคลังสาธารณะ การเงินและการธนาคาร ภาวะเงินเฟ้อและเงินฝืด การจ้างงาน เศรษฐกิจการค้าและการเงินระหว่างประเทศ การพัฒนาเศรษฐกิจและสิ่งแวดล้อม",
       "desc_EN": "Basic economic concepts and application for everyday life concerning production, consumption, markets, national income, public finance, money and banking, inflation and deflation, employment, international trade and finance, and economic development and environment.",
-      "classification": "elective",
+      "classification": "gened",
       "is_project_based": false,
       "prerequisites": [],
       "official_prereq": "ไม่มี",
       "terms": {
         "t1": true,
         "t2": true
-      }
+      },
+      "category": "gened"
     },
     "888107": {
       "id": "888107",
@@ -3123,14 +3150,15 @@ window.CURRICULUM_DATA = {
       "credits": "3(3-0-6)",
       "desc_TH": "การเปิดความคิดทางธุรกิจบนดิจิทัลแพลตฟอร์ม แรงจูงใจของผู้ก่อตั้งธุรกิจบนดิจิทัลแพลตฟอร์ม 7 เทคนิคสำหรับการออกแบบการเริ่มต้นธุรกิจบนดิจิทัลแพลตฟอร์ม การค้นพบความเป็นไปได้ทางธุรกิจบนดิจิทัลแพลตฟอร์ม แนวคิดของหน้าที่กับการปฏิบัติตามธรรมเนียม แนวคิดองค์ประกอบ ทัศนคติในการทำงาน การเริ่มต้นธุรกิจบนดิจิทัลแพลตฟอร์ม กลุ่มวิชาด้านทักษะความเข้าใจและการใช้เทคโนโลยีดิจิทัล หรือ กลุ่มวิชาด้านทักษะการเป็นพลเมืองโลก หรือ กลุ่มวิชาด้านทักษะการประยุกต์ใช้ปัญญาประดิษฐ์",
       "desc_EN": "Opening up the business idea on digital platform. Founder’s motivation to startup business on digital platform. Seven techniques for startup design on digital platform. Discovering business potential on digital platform. “Function” versus “convention” concepts. Component concept. Working attitude. Startup execution on digital platform.",
-      "classification": "elective",
+      "classification": "gened",
       "is_project_based": false,
       "prerequisites": [],
       "official_prereq": "ไม่มี",
       "terms": {
         "t1": false,
         "t2": true
-      }
+      },
+      "category": "gened"
     }
   }
 };
